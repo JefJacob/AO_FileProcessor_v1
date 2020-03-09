@@ -1,0 +1,8 @@
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Entities\bin\Debug\netstandard2.0\AOFileProcessor.Entities.deps.json
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Entities\bin\Debug\netstandard2.0\AOFileProcessor.Entities.dll
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Entities\bin\Debug\netstandard2.0\AOFileProcessor.Entities.pdb
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Entities\obj\Debug\netstandard2.0\AOFileProcessor.Entities.csprojAssemblyReference.cache
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Entities\obj\Debug\netstandard2.0\AOFileProcessor.Entities.AssemblyInfoInputs.cache
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Entities\obj\Debug\netstandard2.0\AOFileProcessor.Entities.AssemblyInfo.cs
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Entities\obj\Debug\netstandard2.0\AOFileProcessor.Entities.dll
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Entities\obj\Debug\netstandard2.0\AOFileProcessor.Entities.pdb

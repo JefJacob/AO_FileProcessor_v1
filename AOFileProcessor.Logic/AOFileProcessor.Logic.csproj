@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.Odbc" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AOFileProcessor.Entities\AOFileProcessor.Entities.csproj" />
+    <ProjectReference Include="..\AOFileProcessor.Repository\AOFileProcessor.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

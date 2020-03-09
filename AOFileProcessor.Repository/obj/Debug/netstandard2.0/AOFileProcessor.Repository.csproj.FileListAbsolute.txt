@@ -1,0 +1,11 @@
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Repository\bin\Debug\netstandard2.0\AOFileProcessor.Entities.dll
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Repository\obj\Debug\netstandard2.0\AOFileProcessor.Repository.csprojAssemblyReference.cache
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Repository\obj\Debug\netstandard2.0\AOFileProcessor.Repository.AssemblyInfoInputs.cache
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Repository\obj\Debug\netstandard2.0\AOFileProcessor.Repository.AssemblyInfo.cs
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Repository\bin\Debug\netstandard2.0\AOFileProcessor.Repository.deps.json
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Repository\bin\Debug\netstandard2.0\AOFileProcessor.Repository.dll
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Repository\bin\Debug\netstandard2.0\AOFileProcessor.Repository.pdb
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Repository\bin\Debug\netstandard2.0\AOFileProcessor.Entities.pdb
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Repository\obj\Debug\netstandard2.0\AOFileProcessor.Repository.csproj.CopyComplete
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Repository\obj\Debug\netstandard2.0\AOFileProcessor.Repository.dll
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Repository\obj\Debug\netstandard2.0\AOFileProcessor.Repository.pdb

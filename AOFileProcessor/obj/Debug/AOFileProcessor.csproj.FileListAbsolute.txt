@@ -1,0 +1,17 @@
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor\bin\Debug\AOFileProcessor.exe.config
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor\bin\Debug\AOFileProcessor.exe
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor\bin\Debug\AOFileProcessor.pdb
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor\bin\Debug\AOFileProcessor.Entities.dll
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor\bin\Debug\AOFileProcessor.Repository.dll
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor\bin\Debug\AOFileProcessor.Entities.pdb
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor\bin\Debug\AOFileProcessor.Repository.pdb
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor\obj\Debug\AOFileProcessor.csprojAssemblyReference.cache
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor\obj\Debug\AOFileProcessor.csproj.CopyComplete
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor\obj\Debug\AOFileProcessor.exe
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor\obj\Debug\AOFileProcessor.pdb
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor\bin\Debug\System.Data.Odbc.dll
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor\bin\Debug\System.Data.Odbc.xml
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor\bin\Debug\System.Data.SqlClient.dll
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor\bin\Debug\System.Data.SqlClient.xml
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor\bin\Debug\AOFileProcessor.Logic.dll
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor\bin\Debug\AOFileProcessor.Logic.pdb
