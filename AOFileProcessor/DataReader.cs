@@ -59,7 +59,7 @@ namespace AOFileProcessor
                 connection.Open();
                 // Execute the DataReader and access the data.
                 OdbcDataReader reader = command.ExecuteReader();
-                //Logic.DataTransfer.ProcessClubData(reader);
+                Logic.DataTransfer.ProcessClubData(reader);
                 // Call Close when done reading.
                 reader.Close();
             }
@@ -92,7 +92,7 @@ namespace AOFileProcessor
             }
 
             //combined events
-            string queryStringCombinedResults = "select Event_name,MultiSubEvent_name, Rnd_ltr,Results.First_name,Results.Last_name,Results.Team_Abbr,Athlete.Reg_no,Athlete.Birth_date,Athlete.Ath_Sex, Res_markDisplay,Res_wind,Res_place,Event_score from Results inner join Athlete on Athlete.Ath_no=Results.Ath_no where Event_name like '%athlon%' ";
+            string queryStringCombinedResults = "select Event_name,MultiSubEvent_name, Rnd_ltr,Results.First_name,Results.Last_name,Results.Team_Abbr,Athlete.Reg_no, Athlete.Birth_date,Athlete.Ath_Sex, Res_markDisplay,Res_wind,Res_place,Event_score,Results.Event_dist,Divisions.Div_name from (Results inner join Athlete on Athlete.Ath_no = Results.Ath_no) inner join Divisions on Divisions.Div_no = Results.Div_no where Event_name like '%athlon%'  ";
 
             using (OdbcConnection connection = new OdbcConnection(connectionString))
             {

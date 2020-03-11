@@ -218,8 +218,13 @@ namespace AOFileProcessor.Logic
                 try
                 {
 
-                    String Event_name = reader["Event_name"].ToString();
-                    String MultiSubEvent_name = reader["MultiSubEvent_name"].ToString();
+                    //String Event_name = reader["Event_name"].ToString();
+                    //String MultiSubEvent_name = reader["MultiSubEvent_name"].ToString();
+                    String Full_Eventname = "";
+                    if (!reader["Event_dist"].ToString().Equals("0"))
+                        Full_Eventname = "Mixed " + reader["Event_name"].ToString() + " " + reader["Event_dist"].ToString() + " Meters " + reader["MultiSubEvent_name"].ToString()+" "+ reader["Div_name"].ToString();
+                    else
+                        Full_Eventname = "Mixed " + reader["Event_name"].ToString() + " " + reader["MultiSubEvent_name"].ToString()+" "+ reader["Div_name"].ToString();
                     String Rnd_ltr = reader["Rnd_ltr"].ToString();
                     String First_name = reader["First_name"].ToString();
                     String Last_name = reader["Last_name"].ToString();
@@ -227,25 +232,43 @@ namespace AOFileProcessor.Logic
                     String Reg_no = reader["Reg_no"].ToString();
                     DateTime Birth_date;
                     if (reader["Birth_date"].ToString() == "")
-                        Birth_date = DateTime.Parse("2000-01-01 00:00:00");
+                        Birth_date = DateTime.Parse("1900-01-01 00:00:00");
                     else
                         Birth_date = DateTime.Parse(reader["Birth_date"].ToString());
                     String Ath_Sex = reader["Ath_Sex"].ToString();
                     String Res_markDisplay = reader["Res_markDisplay"].ToString();
                     String Res_wind = reader["Res_wind"].ToString();
                     String Event_score = reader["Event_score"].ToString();
-
+                    
                     ResultEntity result = new ResultEntity();
+
                     //String Full_Eventname = "Mixed " + Event_name + " " + MultiSubEvent_name;
-                    if (AthleteEventRepo.GetAthleteEventId("Mixed " + Event_name + " " + MultiSubEvent_name+" Masters", Rnd_ltr) == 0)
+                    //if (AthleteEventRepo.GetAthleteEventId(Full_Eventname, Rnd_ltr) == 0)
+                    //{
+                    //    //string[] words = Full_Eventname.Split(' ');
+                    //    AthleteEventEntity athleteEvent = new AthleteEventEntity();
+                    //    athleteEvent.Gender = "Mixed";
+                    //    athleteEvent.EventRound = Rnd_ltr;
+                    //    athleteEvent.Division = Div_name;
+
+                    //    athleteEvent.Name = Event_name + " " + Event_dist+" "+MultiSubEvent_name;
+                    //    AthleteEventRepo.AddAthleteEvent(athleteEvent);
+                    //}
+                    
+                    if (AthleteEventRepo.GetAthleteEventId(Full_Eventname, Rnd_ltr) == 0)
                     {
-                        //string[] words = Full_Eventname.Split(' ');
+                        string[] words = Full_Eventname.Split(' ');
+                        List<string> wList = new List<string>(words);
                         AthleteEventEntity athleteEvent = new AthleteEventEntity();
-                        athleteEvent.Gender = "Mixed";
+                        athleteEvent.Gender = words[0];
                         athleteEvent.EventRound = Rnd_ltr;
-                        athleteEvent.Division = "Masters";
-                        athleteEvent.Name = Event_name + " " + MultiSubEvent_name;
+                        athleteEvent.Division = words[words.Length - 1];
+                        wList.RemoveAt(0);
+                        wList.RemoveAt(wList.Count - 1);
+                        athleteEvent.Name = string.Join(" ", wList);
+                        //athleteEvent.Name = Full_Eventname.Replace(words[0], "").Replace(words[words.Length - 1], "").Trim();
                         AthleteEventRepo.AddAthleteEvent(athleteEvent);
+
                     }
 
                     if (AthleteRepo.GetAthleteIdByACNum(Reg_no) == 0)
@@ -280,7 +303,7 @@ namespace AOFileProcessor.Logic
                     }
 
                     result.CompId = GetCompId(fileName);
-                    result.EventId = AthleteEventRepo.GetAthleteEventId("Mixed " + Event_name + " " + MultiSubEvent_name + " Masters", Rnd_ltr);
+                    result.EventId = AthleteEventRepo.GetAthleteEventId(Full_Eventname, Rnd_ltr);
                     result.Mark = Res_markDisplay;
                     result.Position = Convert.ToInt32(Event_score);
                     result.Wind = Res_wind;
@@ -325,6 +348,7 @@ namespace AOFileProcessor.Logic
                     string EventRound = Rnd_ltr;
                     string Division = "";
                     string Name = "";
+
                     if (Full_Eventname.Contains("29 & Under"))
                     {
                         Division = "29 & Under " + words[words.Length - 1];
