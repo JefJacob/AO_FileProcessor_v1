@@ -5,18 +5,20 @@ using System.Text;
 using System.Data.Odbc;
 using AOFileProcessor.Entities;
 using AOFileProcessor.Repository;
+using NLog;
 
 namespace AOFileProcessor.Logic
 {
     public class DataTransfer
     {
+        private static readonly Logger logger = LogManager.GetCurrentClassLogger();
         public static int GetCompId(string fileName)
         {
             return CompetitionRepo.GetCompetitionId(fileName);
         }
         public static void ProcessClubData(OdbcDataReader reader)
         {
-
+            logger.Info("Started Processing Club Details");
             while (reader.Read())
             {
                 ClubEntity club = new ClubEntity();
@@ -30,15 +32,16 @@ namespace AOFileProcessor.Logic
                 catch (Exception e)
                 {
                     if (e.Message.Contains("Violation of PRIMARY KEY constraint"))
-                        Console.WriteLine("Duplicate:" + club.ClubCode);
+                        logger.Info("Duplicate:" + club.ClubCode);
                 }
 
-                //finally { reader.Close(); }
+                finally { logger.Info("Processing Club Details Completed"); }
             }
         }
 
         public static void ProcessResultsData(OdbcDataReader reader, string fileName)
         {
+            logger.Info("Started Processing Result Details/Standard");
             while (reader.Read())
             {
                 try
@@ -51,7 +54,11 @@ namespace AOFileProcessor.Logic
                     String Last_name = reader["Last_name"].ToString();
                     String Team_Abbr = reader["Team_Abbr"].ToString();
                     String Reg_no = reader["Reg_no"].ToString();
-                    DateTime Birth_date = DateTime.Parse(reader["Birth_date"].ToString());
+                    DateTime Birth_date;
+                    if (reader["Birth_date"].ToString() == "")
+                        Birth_date = DateTime.Parse("1900-01-01 00:00:00");
+                    else
+                        Birth_date = DateTime.Parse(reader["Birth_date"].ToString());
                     String Ath_Sex = reader["Ath_Sex"].ToString();
                     String Res_markDisplay = reader["Res_markDisplay"].ToString();
                     String Res_wind = reader["Res_wind"].ToString();
@@ -115,7 +122,7 @@ namespace AOFileProcessor.Logic
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine(e.Message);
+                    logger.Error("Exception : " + e.Message);
                 }
                 //finally { reader.Close(); }
             }
@@ -123,6 +130,7 @@ namespace AOFileProcessor.Logic
 
         public static void ProcessResultsDataRelay(OdbcDataReader reader,string fileName)
         {
+            logger.Info("Started Processing Result Details/Relay");
             while (reader.Read())
             {
                 try
@@ -137,7 +145,7 @@ namespace AOFileProcessor.Logic
                     String Reg_no = reader["Reg_no"].ToString();
                     DateTime Birth_date;
                     if (reader["Birth_date"].ToString() == "")
-                        Birth_date = DateTime.Parse("2000-01-01 00:00:00");
+                        Birth_date = DateTime.Parse("1900-01-01 00:00:00");
                     else
                         Birth_date = DateTime.Parse(reader["Birth_date"].ToString());
                     String Ath_Sex = reader["Ath_Sex"].ToString();
@@ -204,15 +212,16 @@ namespace AOFileProcessor.Logic
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine(e.Message);
+                    logger.Error("Exception : " + e.Message);
                 }
-                //finally { reader.Close(); }
+                finally { logger.Info("Completed Processing Result Details/Relay"); }
             }
         }
 
 
         public static void ProcessResultsDataCombined(OdbcDataReader reader,string fileName)
         {
+            logger.Info("Started Processing Result Details/Combined");
             while (reader.Read())
             {
                 try
@@ -312,14 +321,16 @@ namespace AOFileProcessor.Logic
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine(e.Message);
+                   
+                    logger.Error("Exception : " + e.Message);
                 }
-                //finally { reader.Close(); }
+                finally { logger.Info("Completed Processing Result Details/Combined"); }
             }
         }
 
         public static void ProcessResultsDataMasters(OdbcDataReader reader, string fileName)
         {
+            logger.Info("Started Processing Result Details/Masters");
             while (reader.Read())
             {
                 try
@@ -333,7 +344,7 @@ namespace AOFileProcessor.Logic
                     String Reg_no = reader["Reg_no"].ToString();
                     DateTime Birth_date;
                     if (reader["Birth_date"].ToString() == "")
-                        Birth_date = DateTime.Parse("2000-01-01 00:00:00");
+                        Birth_date = DateTime.Parse("1900-01-01 00:00:00");
                     else
                         Birth_date = DateTime.Parse(reader["Birth_date"].ToString());
                     String Ath_Sex = reader["Ath_Sex"].ToString();
@@ -412,9 +423,9 @@ namespace AOFileProcessor.Logic
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine(e.Message);
+                    logger.Error("Exception : " + e.Message);
                 }
-                //finally { reader.Close(); }
+                finally { logger.Info("Completed Processing Result Details/Masters"); }
             }
         }
 

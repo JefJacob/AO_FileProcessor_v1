@@ -5,13 +5,16 @@ using System.Text;
 using System.Threading.Tasks;
 
 using AOFileProcessor.Repository;
+using NLog;
 
 namespace AOFileProcessor
 {
     class Program
     {
+        private static readonly Logger logger = LogManager.GetCurrentClassLogger();
         static void Main(string[] args)
         {
+            logger.Info("Application Started");
             Console.WriteLine("Hello World!");
             var subDirectory = DataReader.GetInputPaths();
 

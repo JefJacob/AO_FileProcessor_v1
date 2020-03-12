@@ -3,14 +3,17 @@ using System.Collections.Generic;
 using System.Text;
 using AOFileProcessor.Entities;
 using System.Data.SqlClient;
+using System.Configuration;
+using NLog;
 
 namespace AOFileProcessor.Repository
 {
     public class AthleteEventRepo
     {
+        private static readonly Logger logger = LogManager.GetCurrentClassLogger();
         public static int AddAthleteEvent(AthleteEventEntity athleteEvent)
         {
-            SqlConnection connection = new SqlConnection(@"Data Source=VAIO;Initial catalog=AO_TESTDB_V7;Integrated Security=True");
+            SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["AODB"].ConnectionString);
             string insertStatement =
                 "INSERT into AthleteEvents " +
                 "(Name,	Gender,	Division,	EventRound) " +
@@ -34,7 +37,7 @@ namespace AOFileProcessor.Repository
             }
             catch (SqlException ex)
             {
-                Console.WriteLine(ex.Message);
+                logger.Error("Exception : " + ex.Message);
                 return 0;
             }
             finally
@@ -46,7 +49,7 @@ namespace AOFileProcessor.Repository
         public static int GetAthleteEventId(String eventName,String eventRound)
         {
             
-            SqlConnection connection = new SqlConnection(@"Data Source=VAIO;Initial catalog=AO_TESTDB_V7;Integrated Security=True");
+            SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["AODB"].ConnectionString);
             string selectStatement
                 = "SELECT * "
                 + "FROM AThleteEvents "
@@ -75,7 +78,7 @@ namespace AOFileProcessor.Repository
             }
             catch (SqlException ex)
             {
-                Console.WriteLine(ex.Message);
+                logger.Error("Exception : " + ex.Message);
                 return 0;
             }
             finally

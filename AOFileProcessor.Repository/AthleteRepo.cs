@@ -3,14 +3,17 @@ using System.Collections.Generic;
 using System.Text;
 using AOFileProcessor.Entities;
 using System.Data.SqlClient;
+using System.Configuration;
+using NLog;
 
 namespace AOFileProcessor.Repository
 {
     public class AthleteRepo
     {
+        private static readonly Logger logger = LogManager.GetCurrentClassLogger();
         public static int AddAthlete(AthleteEntity athlete)
         {
-            SqlConnection connection = new SqlConnection(@"Data Source=VAIO;Initial catalog=AO_TESTDB_V7;Integrated Security=True");
+            SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["AODB"].ConnectionString);
             string insertStatement =
                 "INSERT into Athletes " +
                 "(ACNum,	Fname,	Lname,	DOB,	Gender,	ClubCode,	Address,	City,	Phone,	Email,	HeadShot,		ClubAffiliationSince) " +
@@ -56,7 +59,7 @@ namespace AOFileProcessor.Repository
 
         public static AthleteEntity GetAthleteByACNum(String ACNum)
         {
-            SqlConnection connection = new SqlConnection(@"Data Source=VAIO;Initial catalog=AO_TESTDB_V7;Integrated Security=True");
+            SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["AODB"].ConnectionString);
             string selectStatement
                 = "SELECT * "
                 + "FROM AThletes "
@@ -98,7 +101,7 @@ namespace AOFileProcessor.Repository
             }
             catch (SqlException ex)
             {
-                Console.WriteLine(ex.Message);
+                logger.Error("Exception : " + ex.Message);
                 return null;
             }
             finally
@@ -111,7 +114,7 @@ namespace AOFileProcessor.Repository
         {
             if (String.IsNullOrWhiteSpace(ACNum))
                 return 0;
-            SqlConnection connection = new SqlConnection(@"Data Source=VAIO;Initial catalog=AO_TESTDB_V7;Integrated Security=True");
+            SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["AODB"].ConnectionString);
             string selectStatement
                 = "SELECT * "
                 + "FROM AThletes "
@@ -140,7 +143,7 @@ namespace AOFileProcessor.Repository
             }
             catch (SqlException ex)
             {
-                Console.WriteLine(ex.Message);
+                logger.Error("Exception : " + ex.Message);
                 return 0;
             }
             finally
@@ -150,7 +153,7 @@ namespace AOFileProcessor.Repository
         }
         public static int GetAthleteIdByName(String fName, String lName, DateTime dob)
         {
-            SqlConnection connection = new SqlConnection(@"Data Source=VAIO;Initial catalog=AO_TESTDB_V7;Integrated Security=True");
+            SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["AODB"].ConnectionString);
             string selectStatement
                 = "SELECT * "
                 + "FROM AThletes "

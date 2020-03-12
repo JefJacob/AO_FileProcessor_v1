@@ -11,3 +11,7 @@ J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Logic\bin\Debug\n
 J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Logic\obj\Debug\netstandard2.0\AOFileProcessor.Logic.csproj.CopyComplete
 J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Logic\obj\Debug\netstandard2.0\AOFileProcessor.Logic.dll
 J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Logic\obj\Debug\netstandard2.0\AOFileProcessor.Logic.pdb
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Logic\bin\Debug\netstandard2.0\System.Configuration.dll
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Logic\bin\Debug\netstandard2.0\System.Security.dll
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Logic\bin\Debug\netstandard2.0\System.Configuration.xml
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Logic\bin\Debug\netstandard2.0\System.Security.xml

@@ -15,3 +15,6 @@ J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor\bin\Debug\System.
 J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor\bin\Debug\System.Data.SqlClient.xml
 J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor\bin\Debug\AOFileProcessor.Logic.dll
 J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor\bin\Debug\AOFileProcessor.Logic.pdb
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor\bin\Debug\NLog.dll
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor\bin\Debug\NLog.xml
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor\bin\Debug\NLog.config

@@ -3,15 +3,18 @@ using System.Collections.Generic;
 using System.Text;
 using AOFileProcessor.Entities;
 using System.Data.SqlClient;
+using System.Configuration;
+using NLog;
 
 namespace AOFileProcessor.Repository
 {
     public class CompetitionRepo
     {
+        private static readonly Logger logger = LogManager.GetCurrentClassLogger();
         public static int GetCompetitionId(String fileName)
         {
 
-            SqlConnection connection = new SqlConnection(@"Data Source=VAIO;Initial catalog=AO_TESTDB_V7;Integrated Security=True");
+            SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["AODB"].ConnectionString);
             string selectStatement
                 = "SELECT * "
                 + "FROM Competitions "
@@ -39,7 +42,7 @@ namespace AOFileProcessor.Repository
             }
             catch (SqlException ex)
             {
-                Console.WriteLine(ex.Message);
+                logger.Error("Exception : " + ex.Message);
                 return 0;
             }
             finally

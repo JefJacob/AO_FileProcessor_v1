@@ -8,18 +8,20 @@ using System.Data.Odbc;
 using AOFileProcessor.Entities;
 using AOFileProcessor.Repository;
 using AOFileProcessor.Logic;
-
+using NLog;
+using System.Configuration;
 
 namespace AOFileProcessor
 {
     public class DataReader
     {
+        private static readonly Logger logger = LogManager.GetCurrentClassLogger();
         public static string[] GetInputPaths()
         {
             //List<string> paths;
-            //var dataPath = ConfigurationManager.AppSettings["datapath"];
+            var dataPath = ConfigurationManager.AppSettings["datapath"];
             string[] subDirectory =
-                Directory.GetDirectories(@"J:\Courses\Capstone\FileUpload\Source", "*",
+                Directory.GetDirectories(dataPath, "*",
                                    searchOption: SearchOption.TopDirectoryOnly);
             return subDirectory;
         }
@@ -38,18 +40,24 @@ namespace AOFileProcessor
                 string fileName = Path.GetFileName(file);
                 try
                 {
-                    ReadData(builder.ConnectionString,fileName);
-                    
+                    if (DataTransfer.GetCompId(fileName) != 0)
+                        ReadData(builder.ConnectionString, fileName);
+                    else
+                    {
+                        Console.WriteLine("Competition does not exist. Please create new Competition");
+                        logger.Error("Competition does not exist. Please create new Competition");
+                    }
+
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine(ex.Message);
+                    logger.Error("Exception : " + ex.Message);
                 }
             }
         }
         public static void ReadData(string connectionString,string fileName)
         {
-
+            logger.Info("Application has started Reading Access DB");
             //Club data 
             string queryStringClub = "SELECT * FROM Team";
 
@@ -59,7 +67,7 @@ namespace AOFileProcessor
                 connection.Open();
                 // Execute the DataReader and access the data.
                 OdbcDataReader reader = command.ExecuteReader();
-                Logic.DataTransfer.ProcessClubData(reader);
+                DataTransfer.ProcessClubData(reader);
                 // Call Close when done reading.
                 reader.Close();
             }
@@ -73,7 +81,7 @@ namespace AOFileProcessor
                 connection.Open();
                 // Execute the DataReader and access the data.
                 OdbcDataReader reader = command.ExecuteReader();
-                Logic.DataTransfer.ProcessResultsData(reader, fileName);
+                DataTransfer.ProcessResultsData(reader, fileName);
                 reader.Close();
             }
 
@@ -86,7 +94,7 @@ namespace AOFileProcessor
                 connection.Open();
                 // Execute the DataReader and access the data.
                 OdbcDataReader reader = command.ExecuteReader();
-                Logic.DataTransfer.ProcessResultsDataRelay(reader, fileName);
+                DataTransfer.ProcessResultsDataRelay(reader, fileName);
                 // Call Close when done reading.
                 reader.Close();
             }
@@ -100,7 +108,7 @@ namespace AOFileProcessor
                 connection.Open();
                 // Execute the DataReader and access the data.
                 OdbcDataReader reader = command.ExecuteReader();
-                Logic.DataTransfer.ProcessResultsDataCombined(reader, fileName);
+                DataTransfer.ProcessResultsDataCombined(reader, fileName);
                 // Call Close when done reading.
                 reader.Close();
             }
@@ -114,7 +122,7 @@ namespace AOFileProcessor
                 connection.Open();
                 // Execute the DataReader and access the data.
                 OdbcDataReader reader = command.ExecuteReader();
-                Logic.DataTransfer.ProcessResultsDataMasters(reader, fileName);
+                DataTransfer.ProcessResultsDataMasters(reader, fileName);
                 // Call Close when done reading.
                 reader.Close();
             }

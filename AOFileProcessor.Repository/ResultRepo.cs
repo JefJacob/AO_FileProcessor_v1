@@ -3,14 +3,17 @@ using System.Collections.Generic;
 using System.Text;
 using AOFileProcessor.Entities;
 using System.Data.SqlClient;
+using NLog;
+using System.Configuration;
 
 namespace AOFileProcessor.Repository
 {
     public class ResultRepo
     {
+        private static readonly Logger logger = LogManager.GetCurrentClassLogger();
         public static int AddResult(ResultEntity result)
         {
-            SqlConnection connection = new SqlConnection(@"Data Source=VAIO;Initial catalog=AO_TESTDB_V7;Integrated Security=True");
+            SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["AODB"].ConnectionString);
             string insertStatement =
                 "INSERT into Results " +
                 "(CompId,	EventId,	AthleteId,	Mark,	Position,	Wind) " +
@@ -37,7 +40,7 @@ namespace AOFileProcessor.Repository
             catch (SqlException ex)
             {
                 if (ex.Message.Contains("Violation of PRIMARY KEY constraint"))
-                    Console.WriteLine("Duplicate Result: " + result.CompId+"->"+result.EventId+"->"+result.AthleteId);
+                    logger.Error("Duplicate Result: " + result.CompId+"->"+result.EventId+"->"+result.AthleteId);
                 return 0;
             }
             finally

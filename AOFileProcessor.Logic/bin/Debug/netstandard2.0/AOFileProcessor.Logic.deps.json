@@ -12,6 +12,7 @@
           "AOFileProcessor.Entities": "1.0.0",
           "AOFileProcessor.Repository": "1.0.0",
           "NETStandard.Library": "2.0.3",
+          "NLog": "4.6.8",
           "System.Data.Odbc": "4.7.0"
         },
         "runtime": {
@@ -36,6 +37,14 @@
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "NLog/4.6.8": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.8.10751"
+          }
         }
       },
       "runtime.native.System.Data.SqlClient.sni/4.7.0": {
@@ -152,6 +161,9 @@
         }
       },
       "AOFileProcessor.Entities/1.0.0": {
+        "dependencies": {
+          "NLog": "4.6.8"
+        },
         "runtime": {
           "AOFileProcessor.Entities.dll": {}
         }
@@ -159,10 +171,27 @@
       "AOFileProcessor.Repository/1.0.0": {
         "dependencies": {
           "AOFileProcessor.Entities": "1.0.0",
+          "NLog": "4.6.8",
           "System.Data.SqlClient": "4.8.1"
         },
         "runtime": {
           "AOFileProcessor.Repository.dll": {}
+        }
+      },
+      "System.Configuration/4.0.0.0": {
+        "runtime": {
+          "System.Configuration.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.7.3062.0"
+          }
+        }
+      },
+      "System.Security/4.0.0.0": {
+        "runtime": {
+          "System.Security.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.7.3062.0"
+          }
         }
       }
     }
@@ -193,6 +222,13 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "NLog/4.6.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LKB0uN5naOTxdNz++iapk6arNYv2asE8FPRBAmQZ1fe8y8C1Zm6sldh/w9TP/w5s7FGK8s0x6ny0og5ytFK1oQ==",
+      "path": "nlog/4.6.8",
+      "hashPath": "nlog.4.6.8.nupkg.sha512"
     },
     "runtime.native.System.Data.SqlClient.sni/4.7.0": {
       "type": "package",
@@ -299,6 +335,16 @@
     },
     "AOFileProcessor.Repository/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Configuration/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Security/4.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

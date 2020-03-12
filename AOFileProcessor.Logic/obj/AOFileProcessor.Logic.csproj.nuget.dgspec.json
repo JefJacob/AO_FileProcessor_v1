@@ -46,6 +46,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.6.8, )"
             }
           },
           "imports": [
@@ -112,6 +116,10 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.6.8, )"
+            },
             "System.Data.Odbc": {
               "target": "Package",
               "version": "[4.7.0, )"
@@ -177,6 +185,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.6.8, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",

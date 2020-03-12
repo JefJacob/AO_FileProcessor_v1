@@ -3,13 +3,17 @@ using System.Collections.Generic;
 using System.Text;  
 using AOFileProcessor.Entities;
 using System.Data.SqlClient;
+using NLog;
+using System.Configuration;
+
 namespace AOFileProcessor.Repository
 { 
     public static class ClubRepo
     {
+        private static readonly Logger logger = LogManager.GetCurrentClassLogger();
         public static int AddClub(ClubEntity club)
         {
-            SqlConnection connection = new SqlConnection(@"Data Source=VAIO;Initial catalog=AO_TESTDB_V7;Integrated Security=True");
+            SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["AODB"].ConnectionString);
             string insertStatement =
                 "INSERT into Clubs " +
                 "(ClubCode,Name,ShortName) " +
@@ -35,7 +39,7 @@ namespace AOFileProcessor.Repository
             catch (SqlException ex)
             {
                 if (ex.Message.Contains("Violation of PRIMARY KEY constraint"))
-                    Console.WriteLine("Duplicate:" + club.ClubCode);
+                    logger.Error("Duplicate:" + club.ClubCode);
                 return 0;
             }
             finally
@@ -46,7 +50,7 @@ namespace AOFileProcessor.Repository
 
         public static ClubEntity GetClub(String ClubCode)
         {
-            SqlConnection connection = new SqlConnection(@"Data Source=VAIO;Initial catalog=AO_TESTDB_V7;Integrated Security=True");
+            SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["AODB"].ConnectionString);
             string selectStatement
                 = "SELECT * "
 
