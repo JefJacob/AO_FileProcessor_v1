@@ -73,7 +73,7 @@ namespace AOFileProcessor
             }
 
             //Standard events
-            string queryStringResults = "select Full_Eventname,Rnd_ltr,Results.First_name,Results.Last_name,Results.Team_Abbr,Results.Reg_no,Athlete.Birth_date,Athlete.Ath_Sex, Res_markDisplay,Res_wind,Res_place from Results inner join Athlete on Athlete.Ath_no=Results.Ath_no where Full_Eventname not like '%relay%' and Event_name not like '%pentathlon%' and  Full_Eventname not like '%masters%'";
+            string queryStringResults = "select Full_Eventname,Rnd_ltr,Results.First_name,Results.Last_name,Results.Team_Abbr,Results.Reg_no,Athlete.Birth_date,Athlete.Ath_Sex, Res_markDisplay,Res_wind,Res_place from Results inner join Athlete on Athlete.Ath_no=Results.Ath_no where Full_Eventname not like '%relay%' and Event_name not like '%pentathlon%' and  Full_Eventname not like '%masters%' ";
 
             using (OdbcConnection connection = new OdbcConnection(connectionString))
             {
@@ -114,7 +114,7 @@ namespace AOFileProcessor
             }
 
             //Master events
-            string queryStringMasterResults = "select Full_Eventname, Rnd_ltr,Results.First_name,Results.Last_name,Results.Team_Abbr,Athlete.Reg_no,Athlete.Birth_date,Athlete.Ath_Sex, Res_markDisplay,Res_wind,Res_place from Results inner join Athlete on Athlete.Ath_no=Results.Ath_no where Full_Eventname like '%masters%'  ";
+            string queryStringMasterResults = "select Full_Eventname, Rnd_ltr,Results.First_name,Results.Last_name,Results.Team_Abbr,Athlete.Reg_no,Athlete.Birth_date,Athlete.Ath_Sex, Res_markDisplay,Res_wind,Res_place,Divisions.Div_name from (Results inner join Athlete on Athlete.Ath_no=Results.Ath_no ) inner join Divisions on Divisions.Div_no = Results.Div_no where Full_Eventname like '%masters%'  ";
 
             using (OdbcConnection connection = new OdbcConnection(connectionString))
             {

@@ -40,7 +40,52 @@ namespace AOFileProcessor.Repository
             catch (SqlException ex)
             {
                 if (ex.Message.Contains("Violation of PRIMARY KEY constraint"))
-                    logger.Error("Duplicate Result: " + result.CompId+"->"+result.EventId+"->"+result.AthleteId);
+                    logger.Error("Duplicate Result: " );
+                return 0;
+            }
+            finally
+            {
+                connection.Close();
+            }
+        }
+
+        public static int CheckDuplicate(ResultEntity result)
+        {
+            SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["AODB"].ConnectionString);
+            string selectStatement
+                = "SELECT * "
+                + "FROM Results "
+                + "WHERE AthleteId=@AthleteId AND CompId=@CompId AND EventId=@EventId";
+            SqlCommand selectCommand =
+                new SqlCommand(selectStatement, connection);
+            selectCommand.Parameters.AddWithValue(
+                "@AthleteId", result.AthleteId);
+            selectCommand.Parameters.AddWithValue(
+               "@CompId", result.CompId);
+            selectCommand.Parameters.AddWithValue(
+               "@EventId", result.EventId);
+
+            try
+            {
+                connection.Open();
+                SqlDataReader proReader =
+                    selectCommand.ExecuteReader(
+                        System.Data.CommandBehavior.SingleRow);
+                if (proReader.Read())
+                {
+
+                    
+
+                    return 1;
+                }
+                else
+                {
+                    return 0;
+                }
+            }
+            catch (SqlException ex)
+            {
+                logger.Error("Exception : " + ex.Message);
                 return 0;
             }
             finally

@@ -186,7 +186,49 @@ namespace AOFileProcessor.Repository
             }
             catch (SqlException ex)
             {
-                throw ex;
+                logger.Error("Exception : " + ex.Message);
+                return 0;
+            }
+            finally
+            {
+                connection.Close();
+            }
+        }
+
+        public static string GetAthleteNameById(int athleteId)
+        {
+            SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["AODB"].ConnectionString);
+            string selectStatement
+                = "SELECT * "
+                + "FROM AThletes "
+                + "WHERE AthleteId=@AthleteId";
+            SqlCommand selectCommand =
+                new SqlCommand(selectStatement, connection);
+            selectCommand.Parameters.AddWithValue(
+                "@AthleteId", athleteId);
+           
+            try
+            {
+                connection.Open();
+                SqlDataReader proReader =
+                    selectCommand.ExecuteReader(
+                        System.Data.CommandBehavior.SingleRow);
+                if (proReader.Read())
+                {
+
+                    string athleteName =proReader["Fname"].ToString()+" "+ proReader["Lname"].ToString()+" "+ proReader["DOB"].ToString();
+
+                    return athleteName;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+            catch (SqlException ex)
+            {
+                logger.Error("Exception : " + ex.Message);
+                return null;
             }
             finally
             {

@@ -86,5 +86,45 @@ namespace AOFileProcessor.Repository
                 connection.Close();
             }
         }
+
+        public static string GetAthleteEventName(int eventid)
+        {
+
+            SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["AODB"].ConnectionString);
+            string selectStatement
+                = "SELECT * "
+                + "FROM AThleteEvents "
+                + "WHERE EventId=@EventId";
+            SqlCommand selectCommand =
+                new SqlCommand(selectStatement, connection);
+            selectCommand.Parameters.AddWithValue(
+                "@EventId", eventid);
+            
+            try
+            {
+                connection.Open();
+                SqlDataReader proReader =
+                    selectCommand.ExecuteReader(
+                        System.Data.CommandBehavior.SingleRow);
+                if (proReader.Read())
+                {
+                    string AthleteEventName = proReader["Gender"].ToString()+" "+ proReader["Name"].ToString() + " "+proReader["Division"].ToString() + " "+proReader["EventRound"].ToString();
+                    return AthleteEventName;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+            catch (SqlException ex)
+            {
+                logger.Error("Exception : " + ex.Message);
+                return null;
+            }
+            finally
+            {
+                connection.Close();
+            }
+        }
     }
 }

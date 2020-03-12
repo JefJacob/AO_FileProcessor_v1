@@ -35,8 +35,9 @@ namespace AOFileProcessor.Logic
                         logger.Info("Duplicate:" + club.ClubCode);
                 }
 
-                finally { logger.Info("Processing Club Details Completed"); }
+                finally { }
             }
+            logger.Info("Processing Club Details Completed");
         }
 
         public static void ProcessResultsData(OdbcDataReader reader, string fileName)
@@ -49,6 +50,11 @@ namespace AOFileProcessor.Logic
 
                     //Console.WriteLine(reader["Full_Eventname"].ToString() + reader["Rnd_ltr"].ToString() + reader["First_name"].ToString() + reader["Last_name"].ToString() + reader["Team_Abbr"].ToString() + reader["Reg_no"].ToString() + reader["Res_markDisplay"].ToString() + reader["Res_wind"].ToString() + reader["Res_place"].ToString());
                     String Full_Eventname = reader["Full_Eventname"].ToString();
+                    if (Full_Eventname.Contains("AMB"))
+                        Full_Eventname=Full_Eventname.Replace("AMB", "Ambulatory");
+                    if (Full_Eventname.Contains("WC"))
+                        Full_Eventname = Full_Eventname.Replace("WC", "Wheelchair");
+
                     String Rnd_ltr = reader["Rnd_ltr"].ToString();
                     String First_name = reader["First_name"].ToString();
                     String Last_name = reader["Last_name"].ToString();
@@ -118,7 +124,10 @@ namespace AOFileProcessor.Logic
                     result.Position = Convert.ToInt32(Res_place);
                     result.Wind = Res_wind;
 
-                    ResultRepo.AddResult(result);
+                    if (ResultRepo.CheckDuplicate(result) == 0)
+                        ResultRepo.AddResult(result);
+                    else
+                        logger.Error("Duplicate Result: " + fileName.Replace(".mdb", "") + "->" + Full_Eventname + " " + Rnd_ltr + "->" + First_name + " " + Last_name + " DOB: " + Birth_date.ToString("dd-MM-yyyy"));
                 }
                 catch (Exception e)
                 {
@@ -126,6 +135,7 @@ namespace AOFileProcessor.Logic
                 }
                 //finally { reader.Close(); }
             }
+            logger.Info("Completed Processing Result Details/Standard");
         }
 
         public static void ProcessResultsDataRelay(OdbcDataReader reader,string fileName)
@@ -138,6 +148,10 @@ namespace AOFileProcessor.Logic
 
                     //Console.WriteLine(reader["Full_Eventname"].ToString() + reader["Rnd_ltr"].ToString() + reader["First_name"].ToString() + reader["Last_name"].ToString() + reader["Team_Abbr"].ToString() + reader["Reg_no"].ToString() + reader["Res_markDisplay"].ToString() + reader["Res_wind"].ToString() + reader["Res_place"].ToString());
                     String Full_Eventname = reader["Full_Eventname"].ToString();
+                    if (Full_Eventname.Contains("AMB"))
+                        Full_Eventname = Full_Eventname.Replace("AMB", "Ambulatory");
+                    if (Full_Eventname.Contains("WC"))
+                        Full_Eventname = Full_Eventname.Replace("WC", "Wheelchair");
                     String Relay_ltr = reader["Relay_ltr"].ToString();
                     String First_name = reader["First_name"].ToString();
                     String Last_name = reader["Last_name"].ToString();
@@ -162,6 +176,7 @@ namespace AOFileProcessor.Logic
                         AthleteEventEntity athleteEvent = new AthleteEventEntity();
                         athleteEvent.Gender = words[0];
                         athleteEvent.EventRound = Relay_ltr;
+
                         athleteEvent.Division = words[words.Length - 1];
                         wList.RemoveAt(0);
                         wList.RemoveAt(wList.Count - 1);
@@ -207,15 +222,18 @@ namespace AOFileProcessor.Logic
                     result.Mark = Res_markDisplay;
                     result.Position = Convert.ToInt32(Res_place);
                     result.Wind = Res_wind;
-
-                    ResultRepo.AddResult(result);
+                    if(ResultRepo.CheckDuplicate(result)==0)
+                        ResultRepo.AddResult(result);
+                    else
+                        logger.Error("Duplicate Result: " + fileName.Replace(".mdb", "") + "->" + Full_Eventname+" "+ Relay_ltr + "->" + First_name+" "+ Last_name+" DOB: "+ Birth_date.ToString("dd-MM-yyyy"));
                 }
                 catch (Exception e)
                 {
                     logger.Error("Exception : " + e.Message);
                 }
-                finally { logger.Info("Completed Processing Result Details/Relay"); }
+                finally { }
             }
+            logger.Info("Completed Processing Result Details/Relay");
         }
 
 
@@ -234,6 +252,10 @@ namespace AOFileProcessor.Logic
                         Full_Eventname = "Mixed " + reader["Event_name"].ToString() + " " + reader["Event_dist"].ToString() + " Meters " + reader["MultiSubEvent_name"].ToString()+" "+ reader["Div_name"].ToString();
                     else
                         Full_Eventname = "Mixed " + reader["Event_name"].ToString() + " " + reader["MultiSubEvent_name"].ToString()+" "+ reader["Div_name"].ToString();
+                    if (Full_Eventname.Contains("AMB"))
+                        Full_Eventname = Full_Eventname.Replace("AMB", "Ambulatory");
+                    if (Full_Eventname.Contains("WC"))
+                        Full_Eventname = Full_Eventname.Replace("WC", "Wheelchair");
                     String Rnd_ltr = reader["Rnd_ltr"].ToString();
                     String First_name = reader["First_name"].ToString();
                     String Last_name = reader["Last_name"].ToString();
@@ -266,6 +288,10 @@ namespace AOFileProcessor.Logic
                     
                     if (AthleteEventRepo.GetAthleteEventId(Full_Eventname, Rnd_ltr) == 0)
                     {
+                        if (Full_Eventname.Contains("AMB"))
+                            Full_Eventname.Replace("AMB", "Ambulatory");
+                        if(Full_Eventname.Contains("WC"))
+                            Full_Eventname.Replace("WC", "Wheelchair");
                         string[] words = Full_Eventname.Split(' ');
                         List<string> wList = new List<string>(words);
                         AthleteEventEntity athleteEvent = new AthleteEventEntity();
@@ -317,15 +343,19 @@ namespace AOFileProcessor.Logic
                     result.Position = Convert.ToInt32(Event_score);
                     result.Wind = Res_wind;
 
-                    ResultRepo.AddResult(result);
+                    if (ResultRepo.CheckDuplicate(result) == 0)
+                        ResultRepo.AddResult(result);
+                    else
+                        logger.Error("Duplicate Result: " + fileName.Replace(".mdb", "") + "->" + Full_Eventname + " " + Rnd_ltr + "->" + First_name + " " + Last_name + " DOB: " + Birth_date.ToString("dd-MM-yyyy"));
                 }
                 catch (Exception e)
                 {
                    
                     logger.Error("Exception : " + e.Message);
                 }
-                finally { logger.Info("Completed Processing Result Details/Combined"); }
+                finally {  }
             }
+            logger.Info("Completed Processing Result Details/Combined");
         }
 
         public static void ProcessResultsDataMasters(OdbcDataReader reader, string fileName)
@@ -337,6 +367,10 @@ namespace AOFileProcessor.Logic
                 {
 
                     String Full_Eventname = reader["Full_Eventname"].ToString();
+                    if (Full_Eventname.Contains("AMB"))
+                        Full_Eventname = Full_Eventname.Replace("AMB", "Ambulatory");
+                    if (Full_Eventname.Contains("WC"))
+                        Full_Eventname = Full_Eventname.Replace("WC", "Wheelchair");
                     String Rnd_ltr = reader["Rnd_ltr"].ToString();
                     String First_name = reader["First_name"].ToString();
                     String Last_name = reader["Last_name"].ToString();
@@ -351,24 +385,33 @@ namespace AOFileProcessor.Logic
                     String Res_markDisplay = reader["Res_markDisplay"].ToString();
                     String Res_wind = reader["Res_wind"].ToString();
                     String Res_place = reader["Res_place"].ToString();
+                    Full_Eventname = "Mixed " + reader["Full_Eventname"].ToString() ;
 
                     ResultEntity result = new ResultEntity();
+
+                    
+
                     Full_Eventname = Full_Eventname.Replace("X", "");
                     string[] words = Full_Eventname.Split(' ');
-                    string Gender = "Mixed";
+                    List<string> wList = new List<string>(words);
+                    string Gender = words[0];
                     string EventRound = Rnd_ltr;
                     string Division = "";
-                    string Name = "";
-
+                    wList.RemoveAt(0);
+                    wList.RemoveAt(wList.Count - 1);
+                    string Name = string.Join(" ", wList);
+                    
                     if (Full_Eventname.Contains("29 & Under"))
                     {
                         Division = "29 & Under " + words[words.Length - 1];
-                        Name= Full_Eventname.Replace("29 & Under ", "").Replace(" Masters", "").Trim();
+                        Name= Name.Replace("29 & Under ", "").Trim();
                     }
                     else
                     {
-                        Division = words[0] + " " + words[words.Length - 1];
-                        Name = Full_Eventname.Replace(words[0], "").Replace(words[words.Length - 1], "").Trim();
+                        Division = words[1] + " " + words[words.Length - 1];
+                        wList.RemoveAt(0);
+                        Name = string.Join(" ", wList);
+                        Name = Name.Trim();
                     }
                     if (AthleteEventRepo.GetAthleteEventId(Gender+" "+Name+" "+Division, Rnd_ltr) == 0)
                     {
@@ -419,14 +462,18 @@ namespace AOFileProcessor.Logic
                     result.Position = Convert.ToInt32(Res_place);
                     result.Wind = Res_wind;
 
-                    ResultRepo.AddResult(result);
+                    if (ResultRepo.CheckDuplicate(result) == 0)
+                        ResultRepo.AddResult(result);
+                    else
+                        logger.Error("Duplicate Result: " + fileName.Replace(".mdb", "") + "->" + Gender + " " + Name + " " + Division + " " + Rnd_ltr + "->" + First_name + " " + Last_name + " DOB: " + Birth_date.ToString("dd-MM-yyyy"));
                 }
                 catch (Exception e)
                 {
                     logger.Error("Exception : " + e.Message);
                 }
-                finally { logger.Info("Completed Processing Result Details/Masters"); }
+                finally {}
             }
+            logger.Info("Completed Processing Result Details/Masters");
         }
 
     }
