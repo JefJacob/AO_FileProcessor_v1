@@ -13,7 +13,7 @@ namespace AOFileProcessor.Repository
         private static readonly Logger logger = LogManager.GetCurrentClassLogger();
         public static int GetCompetitionId(String fileName)
         {
-
+            
             SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["AODB"].ConnectionString);
             string selectStatement
                 = "SELECT * "

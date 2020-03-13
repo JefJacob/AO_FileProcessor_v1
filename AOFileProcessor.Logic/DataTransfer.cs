@@ -14,6 +14,7 @@ namespace AOFileProcessor.Logic
         private static readonly Logger logger = LogManager.GetCurrentClassLogger();
         public static int GetCompId(string fileName)
         {
+            
             return CompetitionRepo.GetCompetitionId(fileName);
         }
         public static void ProcessClubData(OdbcDataReader reader)

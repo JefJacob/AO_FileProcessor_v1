@@ -1,0 +1,17 @@
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Logic\bin\Release\netstandard2.0\AOFileProcessor.Logic.deps.json
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Logic\bin\Release\netstandard2.0\AOFileProcessor.Logic.dll
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Logic\bin\Release\netstandard2.0\AOFileProcessor.Logic.pdb
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Logic\bin\Release\netstandard2.0\AOFileProcessor.Entities.dll
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Logic\bin\Release\netstandard2.0\AOFileProcessor.Repository.dll
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Logic\bin\Release\netstandard2.0\System.Configuration.dll
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Logic\bin\Release\netstandard2.0\System.Security.dll
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Logic\bin\Release\netstandard2.0\AOFileProcessor.Entities.pdb
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Logic\bin\Release\netstandard2.0\AOFileProcessor.Repository.pdb
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Logic\bin\Release\netstandard2.0\System.Configuration.xml
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Logic\bin\Release\netstandard2.0\System.Security.xml
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Logic\obj\Release\netstandard2.0\AOFileProcessor.Logic.csprojAssemblyReference.cache
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Logic\obj\Release\netstandard2.0\AOFileProcessor.Logic.AssemblyInfoInputs.cache
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Logic\obj\Release\netstandard2.0\AOFileProcessor.Logic.AssemblyInfo.cs
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Logic\obj\Release\netstandard2.0\AOFileProcessor.Logic.csproj.CopyComplete
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Logic\obj\Release\netstandard2.0\AOFileProcessor.Logic.dll
+J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Logic\obj\Release\netstandard2.0\AOFileProcessor.Logic.pdb

@@ -1,0 +1,464 @@
+2020-03-12 10:12:06.1457  INFO    - Program - Application Started 
+2020-03-12 10:12:06.8193  INFO    - DataReader - Application has started Reading Access DB 
+2020-03-12 10:12:07.2011  INFO    - DataTransfer - Started Processing Club Details 
+2020-03-12 10:12:07.2740 ERROR    - ClubRepo - Duplicate:UNON 
+2020-03-12 10:12:07.2850 ERROR    - ClubRepo - Duplicate:UTTC 
+2020-03-12 10:12:07.2850 ERROR    - ClubRepo - Duplicate:NOCO 
+2020-03-12 10:12:07.3050 ERROR    - ClubRepo - Duplicate:OSSD 
+2020-03-12 10:12:07.3140 ERROR    - ClubRepo - Duplicate:UTSC 
+2020-03-12 10:12:07.3140 ERROR    - ClubRepo - Duplicate:ATIN 
+2020-03-12 10:12:07.3340 ERROR    - ClubRepo - Duplicate:BRAC 
+2020-03-12 10:12:07.3340 ERROR    - ClubRepo - Duplicate:VVAC 
+2020-03-12 10:12:07.3510 ERROR    - ClubRepo - Duplicate:MOAC 
+2020-03-12 10:12:07.3680 ERROR    - ClubRepo - Duplicate:THRO 
+2020-03-12 10:12:07.3789 ERROR    - ClubRepo - Duplicate:LVLA 
+2020-03-12 10:12:07.3789 ERROR    - ClubRepo - Duplicate:OHOC 
+2020-03-12 10:12:07.3959 ERROR    - ClubRepo - Duplicate:EXTM 
+2020-03-12 10:12:07.4179 ERROR    - ClubRepo - Duplicate:TORW 
+2020-03-12 10:12:07.4309 ERROR    - ClubRepo - Duplicate:ORWA 
+2020-03-12 10:12:07.4449 ERROR    - ClubRepo - Duplicate:SAAC 
+2020-03-12 10:12:07.4559 ERROR    - ClubRepo - Duplicate:JMAC 
+2020-03-12 10:12:07.4559 ERROR    - ClubRepo - Duplicate:MISS 
+2020-03-12 10:12:07.4769 ERROR    - ClubRepo - Duplicate:BRNT 
+2020-03-12 10:12:07.4869 ERROR    - ClubRepo - Duplicate:YUTC 
+2020-03-12 10:12:07.4869 ERROR    - ClubRepo - Duplicate:ETOB 
+2020-03-12 10:12:07.5039 ERROR    - ClubRepo - Duplicate:BDWK 
+2020-03-12 10:12:07.5039 ERROR    - ClubRepo - Duplicate:NMKT 
+2020-03-12 10:12:07.5219 ERROR    - ClubRepo - Duplicate:SSTC 
+2020-03-12 10:12:07.5219 ERROR    - ClubRepo - Duplicate:TETC 
+2020-03-12 10:12:07.5378 ERROR    - ClubRepo - Duplicate:OTTL 
+2020-03-12 10:12:07.5478 ERROR    - ClubRepo - Duplicate:MCTC 
+2020-03-12 10:12:07.5478 ERROR    - ClubRepo - Duplicate:LAUR 
+2020-03-12 10:12:07.5478 ERROR    - ClubRepo - Duplicate:CTRO 
+2020-03-12 10:12:07.5698 ERROR    - ClubRepo - Duplicate:BTPV 
+2020-03-12 10:12:07.5698 ERROR    - ClubRepo - Duplicate:UWAC 
+2020-03-12 10:12:07.5838 ERROR    - ClubRepo - Duplicate:OTOC 
+2020-03-12 10:12:07.5838 ERROR    - ClubRepo - Duplicate:FLYA 
+2020-03-12 10:12:07.6018 ERROR    - ClubRepo - Duplicate:CSJO 
+2020-03-12 10:12:07.6088 ERROR    - ClubRepo - Duplicate:DLEG 
+2020-03-12 10:12:07.6088  INFO    - DataTransfer - Processing Club Details Completed 
+2020-03-12 10:12:07.7367  INFO    - DataTransfer - Started Processing Result Details/Standard 
+2020-03-12 10:12:07.7367  INFO    - DataTransfer - Completed Processing Result Details/Standard 
+2020-03-12 10:12:07.8087  INFO    - DataTransfer - Started Processing Result Details/Relay 
+2020-03-12 10:12:07.8087  INFO    - DataTransfer - Completed Processing Result Details/Relay 
+2020-03-12 10:12:07.8956  INFO    - DataTransfer - Started Processing Result Details/Combined 
+2020-03-12 10:12:07.9976 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon 60 Meters Hurdles Masters F->Theresa Rozario DOB: 02-10-1964 
+2020-03-12 10:12:08.0385 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon High Jump Masters F->Theresa Rozario DOB: 02-10-1964 
+2020-03-12 10:12:08.0815 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon Shot Put Masters F->Theresa Rozario DOB: 02-10-1964 
+2020-03-12 10:12:08.1235 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon Long Jump Masters F->Theresa Rozario DOB: 02-10-1964 
+2020-03-12 10:12:08.1685 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon 800 Meters Run Masters F->Theresa Rozario DOB: 02-10-1964 
+2020-03-12 10:12:08.2134 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon 60 Meters Hurdles Masters F->Bernard Lachance DOB: 17-03-1950 
+2020-03-12 10:12:08.2524 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon Long Jump Masters F->Bernard Lachance DOB: 17-03-1950 
+2020-03-12 10:12:08.3264 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon Shot Put Masters F->Bernard Lachance DOB: 17-03-1950 
+2020-03-12 10:12:08.4093 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon High Jump Masters F->Bernard Lachance DOB: 17-03-1950 
+2020-03-12 10:12:08.4643 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon 1000 Meters Run Masters F->Bernard Lachance DOB: 17-03-1950 
+2020-03-12 10:12:08.5043 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon 60 Meters Hurdles Masters F->Robert Muir DOB: 27-02-1968 
+2020-03-12 10:12:08.5612 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon Long Jump Masters F->Robert Muir DOB: 27-02-1968 
+2020-03-12 10:12:08.5972 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon Shot Put Masters F->Robert Muir DOB: 27-02-1968 
+2020-03-12 10:12:08.6322 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon High Jump Masters F->Robert Muir DOB: 27-02-1968 
+2020-03-12 10:12:08.6851 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon 1000 Meters Run Masters F->Robert Muir DOB: 27-02-1968 
+2020-03-12 10:12:08.7471 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon 60 Meters Hurdles Masters F->Steve Baldamus DOB: 24-06-1960 
+2020-03-12 10:12:08.8141 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon Long Jump Masters F->Steve Baldamus DOB: 24-06-1960 
+2020-03-12 10:12:08.8530 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon Shot Put Masters F->Steve Baldamus DOB: 24-06-1960 
+2020-03-12 10:12:08.8980 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon High Jump Masters F->Steve Baldamus DOB: 24-06-1960 
+2020-03-12 10:12:08.9470 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon 1000 Meters Run Masters F->Steve Baldamus DOB: 24-06-1960 
+2020-03-12 10:12:09.0029 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon 60 Meters Hurdles Masters F->Shanti McLelland DOB: 04-05-1948 
+2020-03-12 10:12:09.0479 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon Long Jump Masters F->Shanti McLelland DOB: 04-05-1948 
+2020-03-12 10:12:09.0839 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon Shot Put Masters F->Shanti McLelland DOB: 04-05-1948 
+2020-03-12 10:12:09.1189 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon High Jump Masters F->Shanti McLelland DOB: 04-05-1948 
+2020-03-12 10:12:09.1549 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon 1000 Meters Run Masters F->Shanti McLelland DOB: 04-05-1948 
+2020-03-12 10:12:09.2088 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon 60 Meters Hurdles Masters F->Luigi Nunno DOB: 09-07-1958 
+2020-03-12 10:12:09.2548 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon Long Jump Masters F->Luigi Nunno DOB: 09-07-1958 
+2020-03-12 10:12:09.2908 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon Shot Put Masters F->Luigi Nunno DOB: 09-07-1958 
+2020-03-12 10:12:09.3257 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon High Jump Masters F->Luigi Nunno DOB: 09-07-1958 
+2020-03-12 10:12:09.3627 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon 1000 Meters Run Masters F->Luigi Nunno DOB: 09-07-1958 
+2020-03-12 10:12:09.4007 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon 60 Meters Hurdles Masters F->Bruce Urch DOB: 01-02-1955 
+2020-03-12 10:12:09.4407 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon Long Jump Masters F->Bruce Urch DOB: 01-02-1955 
+2020-03-12 10:12:09.4767 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon Shot Put Masters F->Bruce Urch DOB: 01-02-1955 
+2020-03-12 10:12:09.5116 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon High Jump Masters F->Bruce Urch DOB: 01-02-1955 
+2020-03-12 10:12:09.5526 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon 1000 Meters Run Masters F->Bruce Urch DOB: 01-02-1955 
+2020-03-12 10:12:09.5876 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon 60 Meters Hurdles Masters F->Ralph Cilevitz DOB: 06-03-1954 
+2020-03-12 10:12:09.6326 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon Long Jump Masters F->Ralph Cilevitz DOB: 06-03-1954 
+2020-03-12 10:12:09.6675 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon Shot Put Masters F->Ralph Cilevitz DOB: 06-03-1954 
+2020-03-12 10:12:09.7205 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon High Jump Masters F->Ralph Cilevitz DOB: 06-03-1954 
+2020-03-12 10:12:09.7555 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Indoor Pentathlon 1000 Meters Run Masters F->Ralph Cilevitz DOB: 06-03-1954 
+2020-03-12 10:12:09.7555  INFO    - DataTransfer - Completed Processing Result Details/Combined 
+2020-03-12 10:12:09.8144  INFO    - DataTransfer - Started Processing Result Details/Masters 
+2020-03-12 10:12:09.8684 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 65 Masters F->Karla Del Grande DOB: 27-03-1953 
+2020-03-12 10:12:09.9054 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 65 Masters P->Karla Del Grande DOB: 27-03-1953 
+2020-03-12 10:12:09.9404 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 40 Masters F->Dree Ryan DOB: 09-01-1979 
+2020-03-12 10:12:09.9823 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 40 Masters P->Dree Ryan DOB: 09-01-1979 
+2020-03-12 10:12:10.0303 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 30 Masters F->Howard Cho DOB: 01-01-1990 
+2020-03-12 10:12:10.0773 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 30 Masters P->Howard Cho DOB: 01-01-1990 
+2020-03-12 10:12:10.1143 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 55 Masters P->Wendy Melvin DOB: 14-09-1960 
+2020-03-12 10:12:10.1492 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 50 Masters F->Carrie Oswald DOB: 20-11-1967 
+2020-03-12 10:12:10.1842 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 50 Masters P->Carrie Oswald DOB: 20-11-1967 
+2020-03-12 10:12:10.2252 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 50 Masters F->Debbie Zinman DOB: 26-06-1969 
+2020-03-12 10:12:10.2612 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 50 Masters P->Debbie Zinman DOB: 26-06-1969 
+2020-03-12 10:12:10.3141 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Benjamin Cornejo DOB: 08-05-2012 
+2020-03-12 10:12:10.3521 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Benjamin Cornejo DOB: 08-05-2012 
+2020-03-12 10:12:10.3871 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 55 Masters P->Cheryl Wyatt DOB: 06-09-1963 
+2020-03-12 10:12:10.4231 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 45 Masters F->Arulrajan Sithamparapillai DOB: 15-07-1973 
+2020-03-12 10:12:10.4590 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 45 Masters P->Arulrajan Sithamparapillai DOB: 15-07-1973 
+2020-03-12 10:12:10.4980 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Justin Conlon DOB: 20-02-1991 
+2020-03-12 10:12:10.5430 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Justin Conlon DOB: 20-02-1991 
+2020-03-12 10:12:10.5850 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 50 Masters F->Kim Rossos DOB: 20-11-1968 
+2020-03-12 10:12:10.6239 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 50 Masters P->Kim Rossos DOB: 20-11-1968 
+2020-03-12 10:12:10.6599 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Andrew Victor DOB: 21-04-1991 
+2020-03-12 10:12:10.6999 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Andrew Victor DOB: 21-04-1991 
+2020-03-12 10:12:10.7629 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 30 Masters F->Christopher Wagner DOB: 27-03-1985 
+2020-03-12 10:12:10.8168 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 30 Masters P->Christopher Wagner DOB: 27-03-1985 
+2020-03-12 10:12:10.8578 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 40 Masters F->Sheldon Mirco DOB: 29-05-1976 
+2020-03-12 10:12:10.9158 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 40 Masters P->Sheldon Mirco DOB: 29-05-1976 
+2020-03-12 10:12:10.9687 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Domenic Barresi DOB: 06-01-2003 
+2020-03-12 10:12:11.0197 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Domenic Barresi DOB: 06-01-2003 
+2020-03-12 10:12:11.0667 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Kendry Georges DOB: 07-12-2005 
+2020-03-12 10:12:11.1106 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Kendry Georges DOB: 07-12-2005 
+2020-03-12 10:12:11.1536 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Laila Hampson DOB: 15-07-2004 
+2020-03-12 10:12:11.2026 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Laila Hampson DOB: 15-07-2004 
+2020-03-12 10:12:11.2466 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Eva Silva DOB: 10-07-2005 
+2020-03-12 10:12:11.2995 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Eva Silva DOB: 10-07-2005 
+2020-03-12 10:12:11.3445 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 40 Masters F->Lucas Fraser DOB: 20-02-1979 
+2020-03-12 10:12:11.3895 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 40 Masters P->Lucas Fraser DOB: 20-02-1979 
+2020-03-12 10:12:11.4265 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 55 Masters F->Mike Lee Foon DOB: 04-01-1961 
+2020-03-12 10:12:11.4624 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 55 Masters P->Mike Lee Foon DOB: 04-01-1961 
+2020-03-12 10:12:11.4984 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Kiana Burke DOB: 02-04-2005 
+2020-03-12 10:12:11.5524 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Kiana Burke DOB: 02-04-2005 
+2020-03-12 10:12:11.6023 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Julia Kochanski DOB: 06-07-2004 
+2020-03-12 10:12:11.6413 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Julia Kochanski DOB: 06-07-2004 
+2020-03-12 10:12:11.6783 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Adebimpe Adeleke DOB: 22-08-1999 
+2020-03-12 10:12:11.7163 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Adebimpe Adeleke DOB: 22-08-1999 
+2020-03-12 10:12:11.7513 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Simona Stampatori DOB: 15-11-2008 
+2020-03-12 10:12:11.7882 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Simona Stampatori DOB: 15-11-2008 
+2020-03-12 10:12:11.8292 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Sophia Muzher DOB: 01-02-2006 
+2020-03-12 10:12:11.8712 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Sophia Muzher DOB: 01-02-2006 
+2020-03-12 10:12:11.9072 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Mariam Abdelhamid DOB: 11-05-2006 
+2020-03-12 10:12:11.9441 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Mariam Abdelhamid DOB: 11-05-2006 
+2020-03-12 10:12:11.9851 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Eesa Aamer DOB: 16-08-2002 
+2020-03-12 10:12:12.0301 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Eesa Aamer DOB: 16-08-2002 
+2020-03-12 10:12:12.0751 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->John Hipolito DOB: 12-10-2004 
+2020-03-12 10:12:12.1160 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->John Hipolito DOB: 12-10-2004 
+2020-03-12 10:12:12.1540 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Cristian Santos DOB: 14-07-2006 
+2020-03-12 10:12:12.1890 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Cristian Santos DOB: 14-07-2006 
+2020-03-12 10:12:12.2480 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Jean-Philippe Oubda DOB: 11-08-1996 
+2020-03-12 10:12:12.3019 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Jean-Philippe Oubda DOB: 11-08-1996 
+2020-03-12 10:12:12.3759 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Mingtong Qu DOB: 15-04-2006 
+2020-03-12 10:12:12.4118 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Mingtong Qu DOB: 15-04-2006 
+2020-03-12 10:12:12.4478 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Armaan Mathur DOB: 26-06-2007 
+2020-03-12 10:12:12.4908 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Armaan Mathur DOB: 26-06-2007 
+2020-03-12 10:12:12.5308 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 40 Masters F->Khama Beckles DOB: 04-06-1975 
+2020-03-12 10:12:12.5678 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 40 Masters P->Khama Beckles DOB: 04-06-1975 
+2020-03-12 10:12:12.6047 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 45 Masters F->Tracy Viggers DOB: 17-10-1971 
+2020-03-12 10:12:12.6407 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 45 Masters P->Tracy Viggers DOB: 17-10-1971 
+2020-03-12 10:12:12.6777 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 70 Masters P->Miron Genik-Sas-Berezowski DOB: 22-03-1949 
+2020-03-12 10:12:12.7267 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Jordan Parnell DOB: 21-12-2007 
+2020-03-12 10:12:12.7646 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Jordan Parnell DOB: 21-12-2007 
+2020-03-12 10:12:12.8006 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Arun Vengadaramanan DOB: 26-01-2008 
+2020-03-12 10:12:12.8366 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Arun Vengadaramanan DOB: 26-01-2008 
+2020-03-12 10:12:12.8726 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 50 Masters F->Rick Reynolds DOB: 11-08-1966 
+2020-03-12 10:12:12.9105 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 50 Masters P->Rick Reynolds DOB: 11-08-1966 
+2020-03-12 10:12:12.9525 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 30 Masters F->Mary Egbo-Egbo DOB: 04-04-1985 
+2020-03-12 10:12:12.9925 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 30 Masters P->Mary Egbo-Egbo DOB: 04-04-1985 
+2020-03-12 10:12:13.0295 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 70 Masters F->Robert Morley DOB: 25-04-1947 
+2020-03-12 10:12:13.0654 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 70 Masters P->Robert Morley DOB: 25-04-1947 
+2020-03-12 10:12:13.1024 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 60 Masters F->Glenn Chipkar DOB: 05-04-1959 
+2020-03-12 10:12:13.1424 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 60 Masters P->Glenn Chipkar DOB: 05-04-1959 
+2020-03-12 10:12:13.1804 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 75 Masters F->Mike Morris DOB: 24-07-1940 
+2020-03-12 10:12:13.2164 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 75 Masters P->Mike Morris DOB: 24-07-1940 
+2020-03-12 10:12:13.2533 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Ana Pedrero DOB: 15-12-1991 
+2020-03-12 10:12:13.2963 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Ana Pedrero DOB: 15-12-1991 
+2020-03-12 10:12:13.3313 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 60 Masters F->Renata Macherzynska DOB: 23-06-1958 
+2020-03-12 10:12:13.3763 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 60 Masters P->Renata Macherzynska DOB: 23-06-1958 
+2020-03-12 10:12:13.4112 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 70 Masters F->Ryszard Lech DOB: 01-03-1948 
+2020-03-12 10:12:13.4452 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 70 Masters P->Ryszard Lech DOB: 01-03-1948 
+2020-03-12 10:12:13.4812 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Stephanie Blom DOB: 05-05-1996 
+2020-03-12 10:12:13.5162 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Stephanie Blom DOB: 05-05-1996 
+2020-03-12 10:12:13.5571 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Gabrielle Rodney-Calliste DOB: 24-04-2004 
+2020-03-12 10:12:13.6051 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Gabrielle Rodney-Calliste DOB: 24-04-2004 
+2020-03-12 10:12:13.6461 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Denis Tzvetkov DOB: 19-05-2003 
+2020-03-12 10:12:13.6831 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Denis Tzvetkov DOB: 19-05-2003 
+2020-03-12 10:12:13.7200 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Reilly Parker DOB: 28-02-2004 
+2020-03-12 10:12:13.7560 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Reilly Parker DOB: 28-02-2004 
+2020-03-12 10:12:13.7940 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 55 Masters F->Lesley Neufeld DOB: 16-09-1960 
+2020-03-12 10:12:13.8460 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 55 Masters P->Lesley Neufeld DOB: 16-09-1960 
+2020-03-12 10:12:13.8809 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 60 Masters F->Wendy Alexis DOB: 25-03-1955 
+2020-03-12 10:12:13.9169 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 60 Masters P->Wendy Alexis DOB: 25-03-1955 
+2020-03-12 10:12:13.9529 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 45 Masters F->Violeta Garfunkel DOB: 04-05-1973 
+2020-03-12 10:12:13.9919 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 45 Masters P->Violeta Garfunkel DOB: 04-05-1973 
+2020-03-12 10:12:14.0388 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Ivana Glavic DOB: 05-09-2002 
+2020-03-12 10:12:14.0758 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Ivana Glavic DOB: 05-09-2002 
+2020-03-12 10:12:14.1118 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 45 Masters F->Michael Yap DOB: 02-01-1971 
+2020-03-12 10:12:14.1458 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 45 Masters P->Michael Yap DOB: 02-01-1971 
+2020-03-12 10:12:14.1818 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 50 Masters F->Richard Reid DOB: 02-12-1968 
+2020-03-12 10:12:14.2187 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 50 Masters P->Richard Reid DOB: 02-12-1968 
+2020-03-12 10:12:14.2557 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 35 Masters P->Sheree Mullings DOB: 01-09-1981 
+2020-03-12 10:12:14.2977 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Himaya Gamage DOB: 22-03-2003 
+2020-03-12 10:12:14.3317 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Himaya Gamage DOB: 22-03-2003 
+2020-03-12 10:12:14.3686 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 65 Masters F->Ward Hazen DOB: 28-07-1954 
+2020-03-12 10:12:14.4126 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 65 Masters P->Ward Hazen DOB: 28-07-1954 
+2020-03-12 10:12:14.4476 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 55 Masters F->Milton Hart DOB: 16-09-1964 
+2020-03-12 10:12:14.4896 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 55 Masters P->Milton Hart DOB: 16-09-1964 
+2020-03-12 10:12:14.5265 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 45 Masters F->Nigel John DOB: 06-10-1972 
+2020-03-12 10:12:14.5645 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 45 Masters P->Nigel John DOB: 06-10-1972 
+2020-03-12 10:12:14.6005 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Jordanne Williams DOB: 06-04-1990 
+2020-03-12 10:12:14.6365 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Jordanne Williams DOB: 06-04-1990 
+2020-03-12 10:12:14.6725 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 50 Masters F->Jason Foubert DOB: 05-01-1970 
+2020-03-12 10:12:14.7224 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 50 Masters P->Jason Foubert DOB: 05-01-1970 
+2020-03-12 10:12:14.7594 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 45 Masters F->Geoff  (joff) Brown DOB: 28-03-1971 
+2020-03-12 10:12:14.7954 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 45 Masters P->Geoff  (joff) Brown DOB: 28-03-1971 
+2020-03-12 10:12:14.8324 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 40 Masters F->Tanya Gariffe DOB: 10-02-1978 
+2020-03-12 10:12:14.8693 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 40 Masters P->Tanya Gariffe DOB: 10-02-1978 
+2020-03-12 10:12:14.9143 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Aaron Hall DOB: 24-07-1992 
+2020-03-12 10:12:14.9543 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Aaron Hall DOB: 24-07-1992 
+2020-03-12 10:12:14.9943 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 60 Masters F->John Varone DOB: 16-01-1959 
+2020-03-12 10:12:15.0292 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 60 Masters P->John Varone DOB: 16-01-1959 
+2020-03-12 10:12:15.0662 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 40 Masters F->Thomas Uda DOB: 05-09-1978 
+2020-03-12 10:12:15.1022 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 40 Masters P->Thomas Uda DOB: 05-09-1978 
+2020-03-12 10:12:15.1402 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 45 Masters F->Diane Bonhomme DOB: 13-01-1972 
+2020-03-12 10:12:15.1841 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 45 Masters P->Diane Bonhomme DOB: 13-01-1972 
+2020-03-12 10:12:15.2241 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 35 Masters F->Latasha Caesar DOB: 24-07-1983 
+2020-03-12 10:12:15.2601 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 35 Masters P->Latasha Caesar DOB: 24-07-1983 
+2020-03-12 10:12:15.2961 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 55 Masters F->Carol Ann Jessiman DOB: 04-05-1961 
+2020-03-12 10:12:15.3321 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 55 Masters P->Carol Ann Jessiman DOB: 04-05-1961 
+2020-03-12 10:12:15.3750 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 30 Masters F->Matan Berson DOB: 09-10-1989 
+2020-03-12 10:12:15.4150 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 30 Masters P->Matan Berson DOB: 09-10-1989 
+2020-03-12 10:12:15.4500 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 80 Masters F->Bob Cassidy DOB: 26-07-1938 
+2020-03-12 10:12:15.4960 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 80 Masters P->Bob Cassidy DOB: 26-07-1938 
+2020-03-12 10:12:15.5319 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 35 Masters P->Jay Silla DOB: 07-07-1982 
+2020-03-12 10:12:15.5719 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Chris Bailey DOB: 16-12-1996 
+2020-03-12 10:12:15.6139 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Chris Bailey DOB: 16-12-1996 
+2020-03-12 10:12:15.6499 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Shakur Lindsay DOB: 24-01-2004 
+2020-03-12 10:12:15.6848 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Shakur Lindsay DOB: 24-01-2004 
+2020-03-12 10:12:15.7228 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Shakem Lindsay DOB: 24-01-2004 
+2020-03-12 10:12:15.7578 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Shakem Lindsay DOB: 24-01-2004 
+2020-03-12 10:12:15.7998 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Kidane Hyman DOB: 06-02-2004 
+2020-03-12 10:12:15.8387 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Kidane Hyman DOB: 06-02-2004 
+2020-03-12 10:12:15.8767 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Ewua Ekua Sackey DOB: 06-03-2002 
+2020-03-12 10:12:15.9127 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Ewua Ekua Sackey DOB: 06-03-2002 
+2020-03-12 10:12:15.9477 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Arian Moghaddam DOB: 02-05-2004 
+2020-03-12 10:12:15.9886 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Arian Moghaddam DOB: 02-05-2004 
+2020-03-12 10:12:16.0446 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters F->Davede Buckham DOB: 23-04-1999 
+2020-03-12 10:12:16.0836 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Dash 29 & Under Masters P->Davede Buckham DOB: 23-04-1999 
+2020-03-12 10:12:16.1206 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 50 Masters F->Gwyneth Bailey-Mason DOB: 12-08-1966 
+2020-03-12 10:12:16.1555 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 50 Masters F->Carrie Oswald DOB: 20-11-1967 
+2020-03-12 10:12:16.1905 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 50 Masters F->Wayne Ferron DOB: 01-05-1967 
+2020-03-12 10:12:16.2405 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 50 Masters F->Debbie Zinman DOB: 26-06-1969 
+2020-03-12 10:12:16.2875 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 45 Masters F->Arulrajan Sithamparapillai DOB: 15-07-1973 
+2020-03-12 10:12:16.3294 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Justin Conlon DOB: 20-02-1991 
+2020-03-12 10:12:16.3714 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Andrew Victor DOB: 21-04-1991 
+2020-03-12 10:12:16.4084 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 45 Masters F->Colin James DOB: 25-08-1970 
+2020-03-12 10:12:16.4454 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 35 Masters F->Nicolas Kerebel DOB: 29-08-1984 
+2020-03-12 10:12:16.5033 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Domenic Barresi DOB: 06-01-2003 
+2020-03-12 10:12:16.5473 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Daniel Reader DOB: 03-02-2003 
+2020-03-12 10:12:16.5853 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Kendry Georges DOB: 07-12-2005 
+2020-03-12 10:12:16.6233 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Laila Hampson DOB: 15-07-2004 
+2020-03-12 10:12:16.6632 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Eva Silva DOB: 10-07-2005 
+2020-03-12 10:12:16.7142 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 30 Masters F->Paul Davidescu DOB: 16-06-1989 
+2020-03-12 10:12:16.7552 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 40 Masters F->Debbie King DOB: 26-12-1975 
+2020-03-12 10:12:16.7932 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 40 Masters F->Supa D.a. Meikle DOB: 26-05-1977 
+2020-03-12 10:12:16.8301 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Julia Kochanski DOB: 06-07-2004 
+2020-03-12 10:12:16.8681 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Sophia Muzher DOB: 01-02-2006 
+2020-03-12 10:12:16.9091 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Eesa Aamer DOB: 16-08-2002 
+2020-03-12 10:12:16.9531 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Jordan Parnell DOB: 21-12-2007 
+2020-03-12 10:12:17.0050 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Cristian Santos DOB: 14-07-2006 
+2020-03-12 10:12:17.0410 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Armaan Mathur DOB: 26-06-2007 
+2020-03-12 10:12:17.0790 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 40 Masters F->Khama Beckles DOB: 04-06-1975 
+2020-03-12 10:12:17.1200 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 50 Masters F->Christopher Warburton DOB: 08-08-1965 
+2020-03-12 10:12:17.1619 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 50 Masters F->Rick Reynolds DOB: 11-08-1966 
+2020-03-12 10:12:17.1969 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 50 Masters F->Peter Lawson DOB: 22-12-1968 
+2020-03-12 10:12:17.2379 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 70 Masters F->Robert Morley DOB: 25-04-1947 
+2020-03-12 10:12:17.2769 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 75 Masters F->Mike Morris DOB: 24-07-1940 
+2020-03-12 10:12:17.3148 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Ana Pedrero DOB: 15-12-1991 
+2020-03-12 10:12:17.3598 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 60 Masters F->Renata Macherzynska DOB: 23-06-1958 
+2020-03-12 10:12:17.4158 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 70 Masters F->Ryszard Lech DOB: 01-03-1948 
+2020-03-12 10:12:17.4547 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Gabrielle Rodney-Calliste DOB: 24-04-2004 
+2020-03-12 10:12:17.4927 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Reilly Parker DOB: 28-02-2004 
+2020-03-12 10:12:17.5307 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 60 Masters F->Wendy Alexis DOB: 25-03-1955 
+2020-03-12 10:12:17.5897 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 65 Masters F->Karla Del Grande DOB: 27-03-1953 
+2020-03-12 10:12:17.6306 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 45 Masters F->Violeta Garfunkel DOB: 04-05-1973 
+2020-03-12 10:12:17.6696 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 50 Masters F->Richard Reid DOB: 02-12-1968 
+2020-03-12 10:12:17.7056 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 45 Masters F->Nigel John DOB: 06-10-1972 
+2020-03-12 10:12:17.7446 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Marcus Renford DOB: 17-04-2002 
+2020-03-12 10:12:17.7885 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Carson James DOB: 18-01-2002 
+2020-03-12 10:12:17.8345 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Jordanne Williams DOB: 06-04-1990 
+2020-03-12 10:12:17.8725 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 45 Masters F->Kevin Farr DOB: 13-05-1970 
+2020-03-12 10:12:17.9085 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Aaron Hall DOB: 24-07-1992 
+2020-03-12 10:12:17.9434 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 55 Masters F->Carol Ann Jessiman DOB: 04-05-1961 
+2020-03-12 10:12:17.9814 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 30 Masters F->Matan Berson DOB: 09-10-1989 
+2020-03-12 10:12:18.0284 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 80 Masters F->Bob Cassidy DOB: 26-07-1938 
+2020-03-12 10:12:18.0704 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Shakur Lindsay DOB: 24-01-2004 
+2020-03-12 10:12:18.1073 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Shakem Lindsay DOB: 24-01-2004 
+2020-03-12 10:12:18.1423 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Kidane Hyman DOB: 06-02-2004 
+2020-03-12 10:12:18.1763 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Trishanna Antoine-Glen DOB: 30-07-2004 
+2020-03-12 10:12:18.2153 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->James Nguyen DOB: 24-11-2002 
+2020-03-12 10:12:18.2603 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Arian Moghaddam DOB: 02-05-2004 
+2020-03-12 10:12:18.2992 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Giovanni Myers DOB: 12-10-2002 
+2020-03-12 10:12:18.3362 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Aidan Cowell-Miller DOB: 20-10-2004 
+2020-03-12 10:12:18.3742 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Tyler Chung DOB: 22-09-2003 
+2020-03-12 10:12:18.4182 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Khaleel Roberts DOB: 21-10-2001 
+2020-03-12 10:12:18.4591 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Brianna Jacobs DOB: 29-01-2003 
+2020-03-12 10:12:18.4981 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 200 Meter Dash 29 & Under Masters F->Davede Buckham DOB: 23-04-1999 
+2020-03-12 10:12:18.5581 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 29 & Under Masters F->Trishanna Antoine-Glen DOB: 30-07-2004 
+2020-03-12 10:12:18.6140 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 29 & Under Masters F->Allyannz Glen DOB: 07-09-2007 
+2020-03-12 10:12:18.6830 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 50 Masters F->Gwyneth Bailey-Mason DOB: 12-08-1966 
+2020-03-12 10:12:18.7320 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 50 Masters F->Wayne Ferron DOB: 01-05-1967 
+2020-03-12 10:12:18.7689 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 60 Masters F->Steven Millward DOB: 25-08-1955 
+2020-03-12 10:12:18.8079 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 45 Masters F->Colin James DOB: 25-08-1970 
+2020-03-12 10:12:18.8459 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 35 Masters F->Nicolas Kerebel DOB: 29-08-1984 
+2020-03-12 10:12:18.8909 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 30 Masters F->Nathan Da Silva DOB: 18-09-1985 
+2020-03-12 10:12:18.9418 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 45 Masters F->Sean Kapitain DOB: 04-06-1970 
+2020-03-12 10:12:18.9818 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 30 Masters F->Nigel Roedde DOB: 25-08-1987 
+2020-03-12 10:12:19.0208 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 30 Masters F->Paul Davidescu DOB: 16-06-1989 
+2020-03-12 10:12:19.0618 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 29 & Under Masters F->Mariam Abdelhamid DOB: 11-05-2006 
+2020-03-12 10:12:19.1017 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 60 Masters F->Brent Hutchinson DOB: 27-02-1957 
+2020-03-12 10:12:19.1447 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 75 Masters F->Chris Mackie DOB: 29-08-1940 
+2020-03-12 10:12:19.1797 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 50 Masters F->Magno Simoes DOB: 25-04-1969 
+2020-03-12 10:12:19.2167 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 50 Masters F->Peter Lawson DOB: 22-12-1968 
+2020-03-12 10:12:19.2536 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 65 Masters F->Wayne Gagne DOB: 21-08-1954 
+2020-03-12 10:12:19.2916 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 29 & Under Masters F->Himaya Gamage DOB: 22-03-2003 
+2020-03-12 10:12:19.3306 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 29 & Under Masters F->Karl Mondonedo DOB: 01-01-2003 
+2020-03-12 10:12:19.3766 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 45 Masters F->Kevin Farr DOB: 13-05-1970 
+2020-03-12 10:12:19.4135 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 35 Masters F->Mark Johnson DOB: 20-05-1981 
+2020-03-12 10:12:19.4505 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 45 Masters F->Louis Byrne DOB: 06-11-1971 
+2020-03-12 10:12:19.4885 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 75 Masters F->Vern Christensen DOB: 12-12-1940 
+2020-03-12 10:12:19.5345 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 29 & Under Masters F->Ahri Nioras DOB: 15-01-2004 
+2020-03-12 10:12:19.5794 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 29 & Under Masters F->Giovanni Myers DOB: 12-10-2002 
+2020-03-12 10:12:19.6174 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 29 & Under Masters F->Aidan Cowell-Miller DOB: 20-10-2004 
+2020-03-12 10:12:19.6554 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 29 & Under Masters F->Tyler Chung DOB: 22-09-2003 
+2020-03-12 10:12:19.6904 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 400 Meter Dash 50 Masters F->Mirco Graenert DOB: 06-02-1969 
+2020-03-12 10:12:19.7323 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 800 Meter Run 45 Masters F->Pat McLean DOB: 08-07-1970 
+2020-03-12 10:12:19.8093 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 800 Meter Run 29 & Under Masters F->Allyannz Glen DOB: 07-09-2007 
+2020-03-12 10:12:19.8663 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 800 Meter Run 40 Masters F->Jonathan Colford DOB: 29-11-1977 
+2020-03-12 10:12:19.9112 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 800 Meter Run 65 Masters F->Wayne Chee DOB: 02-04-1954 
+2020-03-12 10:12:19.9472 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 800 Meter Run 60 Masters F->Patrick Walsh DOB: 04-01-1956 
+2020-03-12 10:12:19.9882 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 800 Meter Run 29 & Under Masters F->Edward King-Butt DOB: 10-10-2006 
+2020-03-12 10:12:20.0372 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 800 Meter Run 35 Masters F->Jennifer Schindler DOB: 05-03-1983 
+2020-03-12 10:12:20.0741 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 800 Meter Run 50 Masters F->Daniel Moriarity DOB: 13-09-1968 
+2020-03-12 10:12:20.1241 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 800 Meter Run 29 & Under Masters F->Erini Haron DOB: 05-07-2002 
+2020-03-12 10:12:20.1581 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 800 Meter Run 60 Masters F->Brent Hutchinson DOB: 27-02-1957 
+2020-03-12 10:12:20.1931 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 800 Meter Run 65 Masters F->John Helliker DOB: 16-07-1951 
+2020-03-12 10:12:20.2390 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 800 Meter Run 75 Masters F->Chris Mackie DOB: 29-08-1940 
+2020-03-12 10:12:20.2820 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 800 Meter Run 50 Masters F->Gary Cassel DOB: 31-01-1968 
+2020-03-12 10:12:20.3170 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 800 Meter Run 45 Masters F->Glenn Duncan DOB: 09-06-1972 
+2020-03-12 10:12:20.3540 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 800 Meter Run 65 Masters F->Ted Paget DOB: 19-06-1951 
+2020-03-12 10:12:20.3879 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 800 Meter Run 55 Masters F->Mark Duff DOB: 04-12-1961 
+2020-03-12 10:12:20.4219 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 800 Meter Run 29 & Under Masters F->Sonny LeBlanc DOB: 04-08-2005 
+2020-03-12 10:12:20.4659 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 800 Meter Run 35 Masters F->Tanya Sakharov DOB: 07-11-1980 
+2020-03-12 10:12:20.5009 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 800 Meter Run 50 Masters F->Catherine Weber DOB: 21-08-1969 
+2020-03-12 10:12:20.5398 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 800 Meter Run 70 Masters F->Ray Tucker DOB: 05-03-1947 
+2020-03-12 10:12:20.5748 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 800 Meter Run 50 Masters F->Kathy Mantel DOB: 04-11-1967 
+2020-03-12 10:12:20.6148 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 800 Meter Run 35 Masters F->Mark Johnson DOB: 20-05-1981 
+2020-03-12 10:12:20.6658 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 800 Meter Run 75 Masters F->Vern Christensen DOB: 12-12-1940 
+2020-03-12 10:12:20.7057 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 800 Meter Run 35 Masters F->Caitlin Foisy DOB: 21-06-1984 
+2020-03-12 10:12:20.7427 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 800 Meter Run 50 Masters F->Mirco Graenert DOB: 06-02-1969 
+2020-03-12 10:12:20.7997 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1 Mile Run 50 Masters F->Anne Koch DOB: 18-08-1965 
+2020-03-12 10:12:20.8627 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1 Mile Run 65 Masters F->Wayne Chee DOB: 02-04-1954 
+2020-03-12 10:12:20.9166 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1 Mile Run 60 Masters F->Patrick Walsh DOB: 04-01-1956 
+2020-03-12 10:12:20.9556 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1 Mile Run 50 Masters F->Daniel Moriarity DOB: 13-09-1968 
+2020-03-12 10:12:20.9956 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1 Mile Run 35 Masters F->Adam Hammond DOB: 16-05-1981 
+2020-03-12 10:12:21.0385 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1 Mile Run 35 Masters F->David Wesseling DOB: 15-04-1983 
+2020-03-12 10:12:21.0785 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1 Mile Run 29 & Under Masters F->Matthew Turano DOB: 19-02-1991 
+2020-03-12 10:12:21.1255 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1 Mile Run 29 & Under Masters F->Thomas Biglands DOB: 20-12-1990 
+2020-03-12 10:12:21.1805 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1 Mile Run 65 Masters F->Ted Paget DOB: 19-06-1951 
+2020-03-12 10:12:21.2334 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1 Mile Run 29 & Under Masters F->Ryan Beauregard DOB: 30-05-2003 
+2020-03-12 10:12:21.2804 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1 Mile Run 45 Masters F->Jay Brecher DOB: 24-01-1974 
+2020-03-12 10:12:21.3254 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1 Mile Run 45 Masters F->Bill Wells DOB: 08-10-1974 
+2020-03-12 10:12:21.4063 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1 Mile Run 55 Masters F->Simon Rayner DOB: 28-02-1964 
+2020-03-12 10:12:21.4583 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1 Mile Run 50 Masters F->Mark Sterling DOB: 14-06-1965 
+2020-03-12 10:12:21.5152 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1 Mile Run 55 Masters F->James Wallace DOB: 15-10-1962 
+2020-03-12 10:12:21.6272 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1 Mile Run 55 Masters F->Makie Ohler DOB: 23-05-1962 
+2020-03-12 10:12:21.6871 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1 Mile Run 55 Masters F->Dan Fiorini DOB: 13-04-1962 
+2020-03-12 10:12:21.7381 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 5000 Meter Run 65 Masters F->John Clarke DOB: 31-07-1951 
+2020-03-12 10:12:21.7961 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 5000 Meter Run 55 Masters F->Stuart Galloway DOB: 13-02-1961 
+2020-03-12 10:12:21.8520 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 5000 Meter Run 65 Masters F->Clara Northcott DOB: 27-09-1954 
+2020-03-12 10:12:21.8970 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 5000 Meter Run 45 Masters F->Philip Oreopoulos DOB: 20-06-1972 
+2020-03-12 10:12:21.9420 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 5000 Meter Run 50 Masters F->Darryl Rowan DOB: 20-03-1966 
+2020-03-12 10:12:21.9960 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 5000 Meter Run 35 Masters F->David Wesseling DOB: 15-04-1983 
+2020-03-12 10:12:22.0569 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 5000 Meter Run 40 Masters F->Robert Berg DOB: 22-10-1979 
+2020-03-12 10:12:22.1059 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 5000 Meter Run 50 Masters F->Kathy Mantel DOB: 04-11-1967 
+2020-03-12 10:12:22.1419 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 5000 Meter Run 45 Masters F->Randy Zabukovec DOB: 05-04-1970 
+2020-03-12 10:12:22.1768 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 5000 Meter Run 29 & Under Masters F->Nickoy Harding DOB: 11-05-2000 
+2020-03-12 10:12:22.2158 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Hurdles 40 Masters F->Patrik Hudec-Siron DOB: 08-05-1975 
+2020-03-12 10:12:22.2678 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Hurdles 60 Masters F->Glenn Chipkar DOB: 05-04-1959 
+2020-03-12 10:12:22.3068 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Hurdles 70 Masters F->Ryszard Lech DOB: 01-03-1948 
+2020-03-12 10:12:22.3417 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 60 Meter Hurdles 65 Masters F->Ward Hazen DOB: 28-07-1954 
+2020-03-12 10:12:22.3777 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1609 Meter Steeplechase 0.762m 55 Masters F->Cheryl Wyatt DOB: 06-09-1963 
+2020-03-12 10:12:22.4117 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1609 Meter Steeplechase 0.762m 65 Masters F->Wayne Chee DOB: 02-04-1954 
+2020-03-12 10:12:22.4517 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1609 Meter Steeplechase 0.762m 29 & Under Masters F->Ryan Beauregard DOB: 30-05-2003 
+2020-03-12 10:12:22.4956 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1609 Meter Steeplechase 0.762m 29 & Under Masters F->Sonny LeBlanc DOB: 04-08-2005 
+2020-03-12 10:12:22.5316 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1609 Meter Steeplechase 0.762m 55 Masters F->Joy Kramarich DOB: 09-12-1960 
+2020-03-12 10:12:22.5706 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1500 Meter Race Walk 50 Masters F->George Maniatogiannis DOB: 30-03-1966 
+2020-03-12 10:12:22.6076 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1500 Meter Race Walk 65 Masters F->Stanley Guttman DOB: 17-03-1951 
+2020-03-12 10:12:22.6446 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1500 Meter Race Walk 65 Masters F->Kris Kozell DOB: 31-10-1952 
+2020-03-12 10:12:22.6955 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1500 Meter Race Walk 65 Masters F->Anne De Thy DOB: 06-08-1953 
+2020-03-12 10:12:22.7345 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1500 Meter Race Walk 55 Masters F->Nicky Slovitt DOB: 10-05-1960 
+2020-03-12 10:12:22.7685 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1500 Meter Race Walk 50 Masters F->Claustre Bajona-Xandri DOB: 15-10-1968 
+2020-03-12 10:12:22.8045 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1500 Meter Race Walk 55 Masters F->Katharine Cashman DOB: 11-08-1960 
+2020-03-12 10:12:22.8444 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1500 Meter Race Walk 29 & Under Masters F->Ayla Laing DOB: 23-09-2008 
+2020-03-12 10:12:22.8814 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1500 Meter Race Walk 45 Masters F->Blanka Smetana DOB: 12-07-1974 
+2020-03-12 10:12:22.9254 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed 1500 Meter Race Walk 70 Masters F->Lina Liscio DOB: 01-06-1949 
+2020-03-12 10:12:22.9634 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed High Jump 40 Masters F->Maresa Cadienhead DOB: 07-04-1976 
+2020-03-12 10:12:23.0023 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed High Jump 55 Masters F->Cheryl Wyatt DOB: 06-09-1963 
+2020-03-12 10:12:23.0393 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed High Jump 55 Masters F->Don Ritchie DOB: 10-11-1961 
+2020-03-12 10:12:23.0813 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed High Jump 45 Masters F->Tracy Viggers DOB: 17-10-1971 
+2020-03-12 10:12:23.1253 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed High Jump 30 Masters F->Mary Egbo-Egbo DOB: 04-04-1985 
+2020-03-12 10:12:23.1642 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed High Jump 29 & Under Masters F->Ayla Laing DOB: 23-09-2008 
+2020-03-12 10:12:23.1992 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed High Jump 29 & Under Masters F->Ava Neumann DOB: 05-01-2006 
+2020-03-12 10:12:23.2372 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed High Jump 50 Masters F->Catherine Weber DOB: 21-08-1969 
+2020-03-12 10:12:23.2742 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed High Jump 29 & Under Masters F->Chloe Zaraska DOB: 08-09-2003 
+2020-03-12 10:12:23.3111 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Pole Vault 29 & Under Masters F->Leo Aragao DOB: 19-02-2002 
+2020-03-12 10:12:23.3581 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Pole Vault 29 & Under Masters F->Juan Pablo Medina DOB: 09-09-2002 
+2020-03-12 10:12:23.3981 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Pole Vault 29 & Under Masters F->William Shen DOB: 12-04-2003 
+2020-03-12 10:12:23.4361 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Pole Vault 45 Masters F->Jeff Hayhoe DOB: 27-08-1973 
+2020-03-12 10:12:23.4720 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Long Jump 50 Masters F->Wayne Ferron DOB: 01-05-1967 
+2020-03-12 10:12:23.5080 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Long Jump 55 Masters F->Cheryl Wyatt DOB: 06-09-1963 
+2020-03-12 10:12:23.5530 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Long Jump 45 Masters F->Arulrajan Sithamparapillai DOB: 15-07-1973 
+2020-03-12 10:12:23.6040 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Long Jump 40 Masters F->Patrik Hudec-Siron DOB: 08-05-1975 
+2020-03-12 10:12:23.6409 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Long Jump 29 & Under Masters F->Samantha Partington DOB: 12-03-2006 
+2020-03-12 10:12:23.6759 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Long Jump 29 & Under Masters F->Violet Vegter DOB: 02-03-2007 
+2020-03-12 10:12:23.7139 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Long Jump 29 & Under Masters F->Kiana Burke DOB: 02-04-2005 
+2020-03-12 10:12:23.7479 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Long Jump 45 Masters F->Tracy Viggers DOB: 17-10-1971 
+2020-03-12 10:12:23.7928 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Long Jump 29 & Under Masters F->Laila Hampson DOB: 15-07-2004 
+2020-03-12 10:12:23.8268 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Long Jump 29 & Under Masters F->Arun Vengadaramanan DOB: 26-01-2008 
+2020-03-12 10:12:23.8638 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Long Jump 30 Masters F->Mary Egbo-Egbo DOB: 04-04-1985 
+2020-03-12 10:12:23.8998 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Long Jump 29 & Under Masters F->Mimi Dwyer DOB: 27-09-2010 
+2020-03-12 10:12:23.9348 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Long Jump 29 & Under Masters F->Denis Tzvetkov DOB: 19-05-2003 
+2020-03-12 10:12:23.9787 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Long Jump 45 Masters F->Nigel John DOB: 06-10-1972 
+2020-03-12 10:12:24.0257 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Long Jump 29 & Under Masters F->Marcus Renford DOB: 17-04-2002 
+2020-03-12 10:12:24.0637 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Long Jump 29 & Under Masters F->Carson James DOB: 18-01-2002 
+2020-03-12 10:12:24.1136 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Long Jump 45 Masters F->Jack Pontes DOB: 02-11-1971 
+2020-03-12 10:12:24.1576 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Shot Put 50 Masters F->Tracey (willow) McCarthy DOB: 11-02-1968 
+2020-03-12 10:12:24.1956 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Shot Put 70 Masters F->Jerzy Wyroba DOB: 24-06-1949 
+2020-03-12 10:12:24.2396 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Shot Put 55 Masters F->Michael Anderson DOB: 28-05-1960 
+2020-03-12 10:12:24.2785 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Shot Put 29 & Under Masters F->Jessie Buck DOB: 08-07-2004 
+2020-03-12 10:12:24.3185 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Shot Put 29 & Under Masters F->Breanna Cochrane DOB: 29-04-2004 
+2020-03-12 10:12:24.3565 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Shot Put 80 Masters F->Dev Sharma DOB: 28-12-1935 
+2020-03-12 10:12:24.3915 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Shot Put 60 Masters F->Peter St. Pierre DOB: 23-07-1958 
+2020-03-12 10:12:24.4305 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Shot Put 50 Masters F->Leah Easton DOB: 23-05-1965 
+2020-03-12 10:12:24.4704 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Shot Put 45 Masters F->Tracy Viggers DOB: 17-10-1971 
+2020-03-12 10:12:24.5124 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Shot Put 29 & Under Masters F->Rebecca Stevens DOB: 23-10-2006 
+2020-03-12 10:12:24.5484 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Shot Put 29 & Under Masters F->Denis Tzvetkov DOB: 19-05-2003 
+2020-03-12 10:12:24.5884 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Shot Put 35 Masters F->Sheree Mullings DOB: 01-09-1981 
+2020-03-12 10:12:24.6303 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Shot Put 65 Masters F->Ward Hazen DOB: 28-07-1954 
+2020-03-12 10:12:24.6753 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Shot Put 40 Masters F->Kyle Clark DOB: 27-03-1978 
+2020-03-12 10:12:24.7253 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Shot Put 75 Masters F->Adri Rowswell DOB: 29-10-1940 
+2020-03-12 10:12:24.7792 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Shot Put 40 Masters F->Tanya Gariffe DOB: 10-02-1978 
+2020-03-12 10:12:24.8172 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Shot Put 29 & Under Masters F->Ava Esposito DOB: 08-08-2005 
+2020-03-12 10:12:24.8572 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Shot Put 35 Masters F->Latasha Caesar DOB: 24-07-1983 
+2020-03-12 10:12:24.9032 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Weight Throw 50 Masters F->Tracey (willow) McCarthy DOB: 11-02-1968 
+2020-03-12 10:12:24.9431 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Weight Throw 70 Masters F->Jerzy Wyroba DOB: 24-06-1949 
+2020-03-12 10:12:24.9851 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Weight Throw 29 & Under Masters F->Jessie Buck DOB: 08-07-2004 
+2020-03-12 10:12:25.0211 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Weight Throw 29 & Under Masters F->Breanna Cochrane DOB: 29-04-2004 
+2020-03-12 10:12:25.0561 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Weight Throw 80 Masters F->Dev Sharma DOB: 28-12-1935 
+2020-03-12 10:12:25.1080 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Weight Throw 60 Masters F->Peter St. Pierre DOB: 23-07-1958 
+2020-03-12 10:12:25.1520 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Weight Throw 50 Masters F->Leah Easton DOB: 23-05-1965 
+2020-03-12 10:12:25.1870 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Weight Throw 55 Masters F->Steve Baldamus DOB: 24-06-1960 
+2020-03-12 10:12:25.2240 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Weight Throw 29 & Under Masters F->Katie Stevens DOB: 03-07-2004 
+2020-03-12 10:12:25.2609 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Weight Throw 29 & Under Masters F->Rebecca Stevens DOB: 23-10-2006 
+2020-03-12 10:12:25.2989 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Weight Throw 45 Masters F->Ian Morton DOB: 05-12-1974 
+2020-03-12 10:12:25.3379 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Weight Throw 55 Masters F->Kristen Dajia DOB: 26-02-1963 
+2020-03-12 10:12:25.3749 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Weight Throw 40 Masters F->Kyle Clark DOB: 27-03-1978 
+2020-03-12 10:12:25.4099 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Weight Throw 70 Masters F->Lucille Green DOB: 13-09-1948 
+2020-03-12 10:12:25.4458 ERROR    - DataTransfer - Duplicate Result: GenericData-Winter Mini Meet 3-02Feb2020-001->Mixed Weight Throw 35 Masters F->Latasha Caesar DOB: 24-07-1983 
+2020-03-12 10:12:25.4458  INFO    - DataTransfer - Completed Processing Result Details/Masters 
+2020-03-12 10:12:25.4818  INFO    - Program - Application Exited Successfully 

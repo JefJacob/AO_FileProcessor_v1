@@ -1,0 +1,39 @@
+﻿Installing assembly 'J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Service\bin\Release\AOFileProcessor.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Service\bin\Release\AOFileProcessor.Service.InstallLog
+   assemblypath = J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Service\bin\Release\AOFileProcessor.Service.exe
+Installing service WindowsService.NET...
+Creating EventLog source WindowsService.NET in log Application...
+Rolling back assembly 'J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Service\bin\Release\AOFileProcessor.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Service\bin\Release\AOFileProcessor.Service.InstallLog
+   assemblypath = J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Service\bin\Release\AOFileProcessor.Service.exe
+Restoring event log to previous state for source WindowsService.NET.
+Installing assembly 'J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Service\bin\Release\AOFileProcessor.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Service\bin\Release\AOFileProcessor.Service.InstallLog
+   assemblypath = J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Service\bin\Release\AOFileProcessor.Service.exe
+Installing service WindowsService.NET...
+Creating EventLog source WindowsService.NET in log Application...
+Rolling back assembly 'J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Service\bin\Release\AOFileProcessor.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Service\bin\Release\AOFileProcessor.Service.InstallLog
+   assemblypath = J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Service\bin\Release\AOFileProcessor.Service.exe
+Restoring event log to previous state for source WindowsService.NET.
+Installing assembly 'J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Service\bin\Release\AOFileProcessor.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Service\bin\Release\AOFileProcessor.Service.InstallLog
+   assemblypath = J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Service\bin\Release\AOFileProcessor.Service.exe
+Installing service WindowsServiceAO.NET...
+Service WindowsServiceAO.NET has been successfully installed.
+Creating EventLog source WindowsServiceAO.NET in log Application...
+Committing assembly 'J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Service\bin\Release\AOFileProcessor.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Service\bin\Release\AOFileProcessor.Service.InstallLog
+   assemblypath = J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Service\bin\Release\AOFileProcessor.Service.exe

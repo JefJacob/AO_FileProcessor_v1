@@ -1,8 +1,0 @@
-J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.AccessReader\bin\Debug\netstandard2.0\AOFileProcessor.AccessReader.deps.json
-J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.AccessReader\bin\Debug\netstandard2.0\AOFileProcessor.AccessReader.dll
-J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.AccessReader\obj\Debug\netstandard2.0\AOFileProcessor.AccessReader.csprojAssemblyReference.cache
-J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.AccessReader\obj\Debug\netstandard2.0\AOFileProcessor.AccessReader.AssemblyInfoInputs.cache
-J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.AccessReader\obj\Debug\netstandard2.0\AOFileProcessor.AccessReader.AssemblyInfo.cs
-J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.AccessReader\bin\Debug\netstandard2.0\AOFileProcessor.AccessReader.pdb
-J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.AccessReader\obj\Debug\netstandard2.0\AOFileProcessor.AccessReader.dll
-J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.AccessReader\obj\Debug\netstandard2.0\AOFileProcessor.AccessReader.pdb
