@@ -37,3 +37,16 @@ Affected parameters are:
    logtoconsole = 
    logfile = J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Service\bin\Release\AOFileProcessor.Service.InstallLog
    assemblypath = J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Service\bin\Release\AOFileProcessor.Service.exe
+Installing assembly 'J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Service\bin\Release\AOFileProcessor.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Service\bin\Release\AOFileProcessor.Service.InstallLog
+   assemblypath = J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Service\bin\Release\AOFileProcessor.Service.exe
+Installing service WindowsServiceAO2.NET...
+Service WindowsServiceAO2.NET has been successfully installed.
+Creating EventLog source WindowsServiceAO2.NET in log Application...
+Committing assembly 'J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Service\bin\Release\AOFileProcessor.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Service\bin\Release\AOFileProcessor.Service.InstallLog
+   assemblypath = J:\Courses\Capstone\FileUpload\AOFileProcessor\AOFileProcessor.Service\bin\Release\AOFileProcessor.Service.exe

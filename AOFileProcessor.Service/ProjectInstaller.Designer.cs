@@ -40,8 +40,8 @@
             // 
             // serviceInstaller1
             // 
-            this.serviceInstaller1.ServiceName = "WindowsServiceAO.NET";
-            this.serviceInstaller1.DisplayName = "WindowsServiceAO.NET";
+            this.serviceInstaller1.ServiceName = "WindowsServiceAO2.NET";
+            this.serviceInstaller1.DisplayName = "WindowsServiceAO2.NET";
             this.serviceInstaller1.Description =
                 "A sample Windows Service boilerplate written in C# using NET Framework and VS2019";
             // 

@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using NLog;
 using System.IO;
+using System.Configuration;
 
 namespace AOFileProcessor.Service
 {
@@ -20,13 +21,14 @@ namespace AOFileProcessor.Service
 
             logger.Info("Directory watcher Constructor");
             InitializeComponent();
-            this.ServiceName = "WindowsServiceAO.NET";
+            this.ServiceName = "WindowsServiceAO2.NET";
         }
 
         protected override void OnStart(string[] args)
         {
             logger.Info("Directory watcher Initiated");
-            Watcher.MonitorDirectory(@"J:\Courses\Capstone\FileUpload\Source\InputFiles");
+            var monitorFilePath = ConfigurationManager.AppSettings["datapath"];
+            Watcher.MonitorDirectory(monitorFilePath);
         }
 
         protected override void OnStop()
