@@ -40,7 +40,7 @@ namespace AOFileProcessor.Repository
             catch (SqlException ex)
             {
                 if (ex.Message.Contains("Violation of PRIMARY KEY constraint"))
-                    logger.Error("Duplicate Result: " );
+                    logger.Error("Duplicate Result" );
                 return 0;
             }
             finally

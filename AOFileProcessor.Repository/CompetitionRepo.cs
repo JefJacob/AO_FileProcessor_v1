@@ -18,11 +18,11 @@ namespace AOFileProcessor.Repository
             string selectStatement
                 = "SELECT * "
                 + "FROM Competitions "
-                + "WHERE Name=@Name";
+                + "WHERE CompName=@CompName";
             SqlCommand selectCommand =
                 new SqlCommand(selectStatement, connection);
             selectCommand.Parameters.AddWithValue(
-                "@Name", fileName.Replace(".mdb",""));
+                "@CompName", fileName.Replace(".mdb",""));
           
             try
             {
@@ -72,7 +72,7 @@ namespace AOFileProcessor.Repository
                         System.Data.CommandBehavior.SingleRow);
                 if (proReader.Read())
                 {
-                    string CompName = proReader["Name"].ToString();
+                    string CompName = proReader["CompName"].ToString();
                     return CompName;
                 }
                 else

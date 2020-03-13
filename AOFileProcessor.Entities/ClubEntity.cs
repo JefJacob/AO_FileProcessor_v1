@@ -7,7 +7,7 @@ namespace AOFileProcessor.Entities
     public class ClubEntity
     {
         public String ClubCode { get; set; }
-        public String Name { get; set; }
-        public String ShortName { get; set; }
+        public String ClubName { get; set; }
+        
     }
 }

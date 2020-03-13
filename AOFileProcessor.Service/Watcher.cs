@@ -47,7 +47,7 @@ namespace AOFileProcessor.Service
                     logger.Info("Duplicate File Deleted in Backup path");
                 }
 
-
+                
                 File.Move(e.FullPath, destinationFile);
                 logger.Info("File Moved  " + e.FullPath + "->" + destinationFile);
                 logger.Info("Application Exited Successfully");

@@ -16,17 +16,16 @@ namespace AOFileProcessor.Repository
             SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["AODB"].ConnectionString);
             string insertStatement =
                 "INSERT into Clubs " +
-                "(ClubCode,Name,ShortName) " +
-                "VALUES (@ClubCode,@Name,@ShortName)";
+                "(ClubCode,ClubName) " +
+                "VALUES (@ClubCode,@ClubName)";
             SqlCommand insertCommand =
                 new SqlCommand(insertStatement, connection);
 
             insertCommand.Parameters.AddWithValue(
                 "@ClubCode", club.ClubCode);
             insertCommand.Parameters.AddWithValue(
-                "@Name", club.Name);
-            insertCommand.Parameters.AddWithValue(
-                "@ShortName", club.ShortName);
+                "@ClubName", club.ClubName);
+            
 
 
             try
@@ -70,10 +69,8 @@ namespace AOFileProcessor.Repository
                 {
                     ClubEntity club = new ClubEntity();
                     club.ClubCode = proReader["ClubCode"].ToString();
-                    club.Name = proReader["Name"].ToString();
-                    club.ShortName = proReader["ShortName"].ToString();
-
-
+                    club.ClubName = proReader["ClubName"].ToString();
+                    
                     return club;
                 }
                 else

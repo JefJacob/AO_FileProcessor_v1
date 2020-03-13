@@ -2058,3 +2058,250 @@
 2020-03-13 01:33:52.6580  INFO    - Watcher - File deleted: GenericData-Athletics Ontario Outdoor Championship Series #3- U20 - Open Championships-12Jul2019-002.ldb 
 2020-03-13 01:33:52.6580  INFO    - Watcher - File deleted: GenericData-Athletics Ontario Outdoor Championship Series #3- U20 - Open Championships-12Jul2019-002.mdb 
 2020-03-13 01:34:05.6230  INFO    - Service1 - Directory watcher Stopped 
+2020-03-13 05:36:30.2814  INFO    - Service1 - Directory watcher Constructor 
+2020-03-13 05:36:30.3444  INFO    - Service1 - Directory watcher Initiated 
+2020-03-13 05:36:53.3336  INFO    - Watcher - File created: J:\Courses\Capstone\FileUpload\Source\InputFiles\GenericData-Athletics Ontario Outdoor Championship Series #3- U20 - Open Championships-12Jul2019-002.mdb 
+2020-03-13 05:36:53.3436  INFO    - Watcher - Application Started 
+2020-03-13 05:36:53.8793  INFO    - DataReader - Application Started | ProcessFile 
+2020-03-13 05:36:53.9123  INFO    - DataReader - Driver={Microsoft Access Driver (*.mdb)};DBQ=J:\Courses\Capstone\FileUpload\Source\InputFiles\GenericData-Athletics Ontario Outdoor Championship Series #3- U20 - Open Championships-12Jul2019-002.mdb 
+2020-03-13 05:36:54.5169  INFO    - DataReader - Application has started Reading Access DB 
+2020-03-13 05:36:54.8009  INFO    - DataTransfer - Started Processing Club Details 
+2020-03-13 05:36:55.1226  INFO    - DataTransfer - Processing Club Details Completed 
+2020-03-13 05:36:55.1896  INFO    - DataTransfer - Started Processing Result Details/Standard 
+2020-03-13 05:36:59.6839 ERROR    - DataTransfer - Duplicate Result: GenericData-Athletics Ontario Outdoor Championship Series #3- U20 - Open Championships-12Jul2019-002->Men 110 Meter Hurdles 1.067m Open F->Oluwasegun Makinde DOB: 06-07-1991 
+2020-03-13 05:36:59.6839 ERROR    - DataTransfer - Duplicate Result: GenericData-Athletics Ontario Outdoor Championship Series #3- U20 - Open Championships-12Jul2019-002->Men 110 Meter Hurdles 1.067m Open F->Marceau Jovin DOB: 07-11-1996 
+2020-03-13 05:36:59.6889 ERROR    - DataTransfer - Duplicate Result: GenericData-Athletics Ontario Outdoor Championship Series #3- U20 - Open Championships-12Jul2019-002->Men 110 Meter Hurdles 1.067m Open F->Paulo Miguel DOB: 21-08-1994 
+2020-03-13 05:36:59.6889 ERROR    - DataTransfer - Duplicate Result: GenericData-Athletics Ontario Outdoor Championship Series #3- U20 - Open Championships-12Jul2019-002->Men 110 Meter Hurdles 1.067m Open F->Austin McLeod DOB: 07-01-1999 
+2020-03-13 05:36:59.6889 ERROR    - DataTransfer - Duplicate Result: GenericData-Athletics Ontario Outdoor Championship Series #3- U20 - Open Championships-12Jul2019-002->Men 110 Meter Hurdles 1.067m Open F->Greg Spangenberg DOB: 20-07-1998 
+2020-03-13 05:36:59.6889 ERROR    - DataTransfer - Duplicate Result: GenericData-Athletics Ontario Outdoor Championship Series #3- U20 - Open Championships-12Jul2019-002->Men 110 Meter Hurdles 1.067m Open F->Jared Hendricks-Polack DOB: 14-09-1998 
+2020-03-13 05:36:59.6889 ERROR    - DataTransfer - Duplicate Result: GenericData-Athletics Ontario Outdoor Championship Series #3- U20 - Open Championships-12Jul2019-002->Men 110 Meter Hurdles 1.067m Open F->Ryan Evans DOB: 11-07-1999 
+2020-03-13 05:36:59.6889  INFO    - DataTransfer - Completed Processing Result Details/Standard 
+2020-03-13 05:36:59.7729  INFO    - DataTransfer - Started Processing Result Details/Relay 
+2020-03-13 05:37:00.0747  INFO    - DataTransfer - Completed Processing Result Details/Relay 
+2020-03-13 05:37:00.1327  INFO    - DataTransfer - Started Processing Result Details/Combined 
+2020-03-13 05:37:00.1327  INFO    - DataTransfer - Completed Processing Result Details/Combined 
+2020-03-13 05:37:00.1936  INFO    - DataTransfer - Started Processing Result Details/Masters 
+2020-03-13 05:37:00.1936  INFO    - DataTransfer - Completed Processing Result Details/Masters 
+2020-03-13 05:37:00.2316  INFO    - Watcher - Duplicate File Deleted in Backup path 
+2020-03-13 05:37:00.2316  INFO    - Watcher - File Moved  J:\Courses\Capstone\FileUpload\Source\InputFiles\GenericData-Athletics Ontario Outdoor Championship Series #3- U20 - Open Championships-12Jul2019-002.mdb->J:\Courses\Capstone\FileUpload\Source\Backup\GenericData-Athletics Ontario Outdoor Championship Series #3- U20 - Open Championships-12Jul2019-002.mdb 
+2020-03-13 05:37:00.2316  INFO    - Watcher - Application Exited Successfully 
+2020-03-13 05:37:00.2316  INFO    - Watcher - File deleted: GenericData-Athletics Ontario Outdoor Championship Series #3- U20 - Open Championships-12Jul2019-002.ldb 
+2020-03-13 05:37:00.2316  INFO    - Watcher - File deleted: GenericData-Athletics Ontario Outdoor Championship Series #3- U20 - Open Championships-12Jul2019-002.ldb 
+2020-03-13 05:37:00.2316  INFO    - Watcher - File deleted: GenericData-Athletics Ontario Outdoor Championship Series #3- U20 - Open Championships-12Jul2019-002.ldb 
+2020-03-13 05:37:00.2316  INFO    - Watcher - File deleted: GenericData-Athletics Ontario Outdoor Championship Series #3- U20 - Open Championships-12Jul2019-002.ldb 
+2020-03-13 05:37:00.2316  INFO    - Watcher - File deleted: GenericData-Athletics Ontario Outdoor Championship Series #3- U20 - Open Championships-12Jul2019-002.ldb 
+2020-03-13 05:37:00.2316  INFO    - Watcher - File deleted: GenericData-Athletics Ontario Outdoor Championship Series #3- U20 - Open Championships-12Jul2019-002.mdb 
+2020-03-13 05:37:05.3391  INFO    - Watcher - File created: J:\Courses\Capstone\FileUpload\Source\InputFiles\GenericData-Ontario Indoor U18 - Open Championships-08Feb2020-001.mdb 
+2020-03-13 05:37:05.3391  INFO    - Watcher - Application Started 
+2020-03-13 05:37:05.3391  INFO    - DataReader - Application Started | ProcessFile 
+2020-03-13 05:37:05.3391  INFO    - DataReader - Driver={Microsoft Access Driver (*.mdb)};DBQ=J:\Courses\Capstone\FileUpload\Source\InputFiles\GenericData-Ontario Indoor U18 - Open Championships-08Feb2020-001.mdb 
+2020-03-13 05:37:05.3391  INFO    - DataReader - Application has started Reading Access DB 
+2020-03-13 05:37:06.1940  INFO    - DataTransfer - Started Processing Club Details 
+2020-03-13 05:37:06.1940 ERROR    - ClubRepo - Duplicate:UNA 
+2020-03-13 05:37:06.1940 ERROR    - ClubRepo - Duplicate:UNON 
+2020-03-13 05:37:06.1940 ERROR    - ClubRepo - Duplicate:DVTC 
+2020-03-13 05:37:06.1940 ERROR    - ClubRepo - Duplicate:LLTA 
+2020-03-13 05:37:06.1940 ERROR    - ClubRepo - Duplicate:UTTC 
+2020-03-13 05:37:06.2030 ERROR    - ClubRepo - Duplicate:LWTF 
+2020-03-13 05:37:06.2030 ERROR    - ClubRepo - Duplicate:SISU 
+2020-03-13 05:37:06.2030 ERROR    - ClubRepo - Duplicate:QFTC 
+2020-03-13 05:37:06.2030 ERROR    - ClubRepo - Duplicate:JAM 
+2020-03-13 05:37:06.2030 ERROR    - ClubRepo - Duplicate:OOAK 
+2020-03-13 05:37:06.2030 ERROR    - ClubRepo - Duplicate:BRMP 
+2020-03-13 05:37:06.2030 ERROR    - ClubRepo - Duplicate:PTBR 
+2020-03-13 05:37:06.2030 ERROR    - ClubRepo - Duplicate:GUXR 
+2020-03-13 05:37:06.2030 ERROR    - ClubRepo - Duplicate:PHNX 
+2020-03-13 05:37:06.2030 ERROR    - ClubRepo - Duplicate:OTTL 
+2020-03-13 05:37:06.2030 ERROR    - ClubRepo - Duplicate:NOCO 
+2020-03-13 05:37:06.2030 ERROR    - ClubRepo - Duplicate:DURA 
+2020-03-13 05:37:06.2030 ERROR    - ClubRepo - Duplicate:KING 
+2020-03-13 05:37:06.2030 ERROR    - ClubRepo - Duplicate:MOAA 
+2020-03-13 05:37:06.2030 ERROR    - ClubRepo - Duplicate:INAC 
+2020-03-13 05:37:06.2190 ERROR    - ClubRepo - Duplicate:SAUG 
+2020-03-13 05:37:06.2190 ERROR    - ClubRepo - Duplicate:FLYA 
+2020-03-13 05:37:06.2190 ERROR    - ClubRepo - Duplicate:UWAC 
+2020-03-13 05:37:06.2190 ERROR    - ClubRepo - Duplicate:SAAC 
+2020-03-13 05:37:06.2190 ERROR    - ClubRepo - Duplicate:CTAC 
+2020-03-13 05:37:06.2190 ERROR    - ClubRepo - Duplicate:BURL 
+2020-03-13 05:37:06.2190 ERROR    - ClubRepo - Duplicate:VVAC 
+2020-03-13 05:37:06.2190 ERROR    - ClubRepo - Duplicate:TNOR 
+2020-03-13 05:37:06.2190 ERROR    - ClubRepo - Duplicate:HARB 
+2020-03-13 05:37:06.2190 ERROR    - ClubRepo - Duplicate:UTSC 
+2020-03-13 05:37:06.2190 ERROR    - ClubRepo - Duplicate:ETOB 
+2020-03-13 05:37:06.2190 ERROR    - ClubRepo - Duplicate:BRNT 
+2020-03-13 05:37:06.2190 ERROR    - ClubRepo - Duplicate:GSIT 
+2020-03-13 05:37:06.2190 ERROR    - ClubRepo - Duplicate:EXTM 
+2020-03-13 05:37:06.2190 ERROR    - ClubRepo - Duplicate:MCTC 
+2020-03-13 05:37:06.2340 ERROR    - ClubRepo - Duplicate:OSSD 
+2020-03-13 05:37:06.2340 ERROR    - ClubRepo - Duplicate:OSTL 
+2020-03-13 05:37:06.2340 ERROR    - ClubRepo - Duplicate:BLEG 
+2020-03-13 05:37:06.2340 ERROR    - ClubRepo - Duplicate:TOWA 
+2020-03-13 05:37:06.2340 ERROR    - ClubRepo - Duplicate:LAUR 
+2020-03-13 05:37:06.2340 ERROR    - ClubRepo - Duplicate:BOAC 
+2020-03-13 05:37:06.2340 ERROR    - ClubRepo - Duplicate:YUTC 
+2020-03-13 05:37:06.2340 ERROR    - ClubRepo - Duplicate:CANI 
+2020-03-13 05:37:06.2340 ERROR    - ClubRepo - Duplicate:PEVA 
+2020-03-13 05:37:06.2340 ERROR    - ClubRepo - Duplicate:DLEG 
+2020-03-13 05:37:06.2340 ERROR    - ClubRepo - Duplicate:BTPV 
+2020-03-13 05:37:06.2340 ERROR    - ClubRepo - Duplicate:CEOR 
+2020-03-13 05:37:06.2340 ERROR    - ClubRepo - Duplicate:CAFP 
+2020-03-13 05:37:06.2340 ERROR    - ClubRepo - Duplicate:OHOC 
+2020-03-13 05:37:06.2340 ERROR    - ClubRepo - Duplicate:BLUE 
+2020-03-13 05:37:06.2340 ERROR    - ClubRepo - Duplicate:NMKT 
+2020-03-13 05:37:06.2340 ERROR    - ClubRepo - Duplicate:OTOC 
+2020-03-13 05:37:06.2340 ERROR    - ClubRepo - Duplicate:KWTF 
+2020-03-13 05:37:06.2340 ERROR    - ClubRepo - Duplicate:PATF 
+2020-03-13 05:37:06.2340 ERROR    - ClubRepo - Duplicate:PFMX 
+2020-03-13 05:37:06.2500 ERROR    - ClubRepo - Duplicate:CTRO 
+2020-03-13 05:37:06.2500 ERROR    - ClubRepo - Duplicate:TETC 
+2020-03-13 05:37:06.2500 ERROR    - ClubRepo - Duplicate:CCCX 
+2020-03-13 05:37:06.2500 ERROR    - ClubRepo - Duplicate:WLEG 
+2020-03-13 05:37:06.2500 ERROR    - ClubRepo - Duplicate:BORD 
+2020-03-13 05:37:06.2500 ERROR    - ClubRepo - Duplicate:NCTC 
+2020-03-13 05:37:06.2500 ERROR    - ClubRepo - Duplicate:KWLL 
+2020-03-13 05:37:06.2500  INFO    - DataTransfer - Processing Club Details Completed 
+2020-03-13 05:37:06.3050  INFO    - DataTransfer - Started Processing Result Details/Standard 
+2020-03-13 05:37:10.7260 ERROR    - DataTransfer - Duplicate Result: GenericData-Ontario Indoor U18 - Open Championships-08Feb2020-001->Men Open 400 Meter Dash Open F->Braenen Jamal DOB: 10-09-1993 
+2020-03-13 05:37:12.5791 ERROR    - DataTransfer - Duplicate Result: GenericData-Ontario Indoor U18 - Open Championships-08Feb2020-001->Women Open High Jump U18 F->Marley Melbourne DOB: 11-03-2004 
+2020-03-13 05:37:13.6095  INFO    - DataTransfer - Completed Processing Result Details/Standard 
+2020-03-13 05:37:13.6667  INFO    - DataTransfer - Started Processing Result Details/Relay 
+2020-03-13 05:37:14.1586  INFO    - DataTransfer - Completed Processing Result Details/Relay 
+2020-03-13 05:37:14.2136  INFO    - DataTransfer - Started Processing Result Details/Combined 
+2020-03-13 05:37:14.2136  INFO    - DataTransfer - Completed Processing Result Details/Combined 
+2020-03-13 05:37:14.2650  INFO    - DataTransfer - Started Processing Result Details/Masters 
+2020-03-13 05:37:14.2650  INFO    - DataTransfer - Completed Processing Result Details/Masters 
+2020-03-13 05:37:14.3012  INFO    - Watcher - Duplicate File Deleted in Backup path 
+2020-03-13 05:37:14.3012  INFO    - Watcher - File Moved  J:\Courses\Capstone\FileUpload\Source\InputFiles\GenericData-Ontario Indoor U18 - Open Championships-08Feb2020-001.mdb->J:\Courses\Capstone\FileUpload\Source\Backup\GenericData-Ontario Indoor U18 - Open Championships-08Feb2020-001.mdb 
+2020-03-13 05:37:14.3012  INFO    - Watcher - Application Exited Successfully 
+2020-03-13 05:37:14.3012  INFO    - Watcher - File deleted: GenericData-Ontario Indoor U18 - Open Championships-08Feb2020-001.ldb 
+2020-03-13 05:37:14.3012  INFO    - Watcher - File deleted: GenericData-Ontario Indoor U18 - Open Championships-08Feb2020-001.ldb 
+2020-03-13 05:37:14.3012  INFO    - Watcher - File deleted: GenericData-Ontario Indoor U18 - Open Championships-08Feb2020-001.ldb 
+2020-03-13 05:37:14.3012  INFO    - Watcher - File deleted: GenericData-Ontario Indoor U18 - Open Championships-08Feb2020-001.ldb 
+2020-03-13 05:37:14.3012  INFO    - Watcher - File deleted: GenericData-Ontario Indoor U18 - Open Championships-08Feb2020-001.ldb 
+2020-03-13 05:37:14.3012  INFO    - Watcher - File deleted: GenericData-Ontario Indoor U18 - Open Championships-08Feb2020-001.ldb 
+2020-03-13 05:37:14.3012  INFO    - Watcher - File deleted: GenericData-Ontario Indoor U18 - Open Championships-08Feb2020-001.mdb 
+2020-03-13 05:37:18.3977  INFO    - Watcher - File created: J:\Courses\Capstone\FileUpload\Source\InputFiles\GenericData-Winter Mini Meet 3-02Feb2020-001.mdb 
+2020-03-13 05:37:18.3977  INFO    - Watcher - Application Started 
+2020-03-13 05:37:18.3977  INFO    - DataReader - Application Started | ProcessFile 
+2020-03-13 05:37:18.3977  INFO    - DataReader - Driver={Microsoft Access Driver (*.mdb)};DBQ=J:\Courses\Capstone\FileUpload\Source\InputFiles\GenericData-Winter Mini Meet 3-02Feb2020-001.mdb 
+2020-03-13 05:37:18.3977  INFO    - DataReader - Application has started Reading Access DB 
+2020-03-13 05:37:18.4307  INFO    - DataTransfer - Started Processing Club Details 
+2020-03-13 05:37:18.4307 ERROR    - ClubRepo - Duplicate:UNON 
+2020-03-13 05:37:18.4307 ERROR    - ClubRepo - Duplicate:UTTC 
+2020-03-13 05:37:18.4307 ERROR    - ClubRepo - Duplicate:NOCO 
+2020-03-13 05:37:18.4307 ERROR    - ClubRepo - Duplicate:OSSD 
+2020-03-13 05:37:18.4307 ERROR    - ClubRepo - Duplicate:UTSC 
+2020-03-13 05:37:18.4307 ERROR    - ClubRepo - Duplicate:ATIN 
+2020-03-13 05:37:18.4457 ERROR    - ClubRepo - Duplicate:VVAC 
+2020-03-13 05:37:18.4457 ERROR    - ClubRepo - Duplicate:MOAC 
+2020-03-13 05:37:18.5386 ERROR    - ClubRepo - Duplicate:OHOC 
+2020-03-13 05:37:18.5726 ERROR    - ClubRepo - Duplicate:EXTM 
+2020-03-13 05:37:18.6056 ERROR    - ClubRepo - Duplicate:TORW 
+2020-03-13 05:37:18.6275 ERROR    - ClubRepo - Duplicate:ORWA 
+2020-03-13 05:37:18.6275 ERROR    - ClubRepo - Duplicate:SAAC 
+2020-03-13 05:37:18.6415 ERROR    - ClubRepo - Duplicate:JMAC 
+2020-03-13 05:37:18.6415 ERROR    - ClubRepo - Duplicate:MISS 
+2020-03-13 05:37:18.6565 ERROR    - ClubRepo - Duplicate:BRNT 
+2020-03-13 05:37:18.6565 ERROR    - ClubRepo - Duplicate:YUTC 
+2020-03-13 05:37:18.6765 ERROR    - ClubRepo - Duplicate:ETOB 
+2020-03-13 05:37:18.6765 ERROR    - ClubRepo - Duplicate:BDWK 
+2020-03-13 05:37:18.6765 ERROR    - ClubRepo - Duplicate:NMKT 
+2020-03-13 05:37:18.6875 ERROR    - ClubRepo - Duplicate:SSTC 
+2020-03-13 05:37:18.6875 ERROR    - ClubRepo - Duplicate:TETC 
+2020-03-13 05:37:18.6875 ERROR    - ClubRepo - Duplicate:OTTL 
+2020-03-13 05:37:18.6875 ERROR    - ClubRepo - Duplicate:MCTC 
+2020-03-13 05:37:18.6875 ERROR    - ClubRepo - Duplicate:LAUR 
+2020-03-13 05:37:18.6875 ERROR    - ClubRepo - Duplicate:CTRO 
+2020-03-13 05:37:18.7155 ERROR    - ClubRepo - Duplicate:BTPV 
+2020-03-13 05:37:18.7155 ERROR    - ClubRepo - Duplicate:UWAC 
+2020-03-13 05:37:18.7195 ERROR    - ClubRepo - Duplicate:OTOC 
+2020-03-13 05:37:18.7195 ERROR    - ClubRepo - Duplicate:FLYA 
+2020-03-13 05:37:18.7195 ERROR    - ClubRepo - Duplicate:DLEG 
+2020-03-13 05:37:18.7195  INFO    - DataTransfer - Processing Club Details Completed 
+2020-03-13 05:37:18.7954  INFO    - DataTransfer - Started Processing Result Details/Standard 
+2020-03-13 05:37:18.7954  INFO    - DataTransfer - Completed Processing Result Details/Standard 
+2020-03-13 05:37:18.8984  INFO    - DataTransfer - Started Processing Result Details/Relay 
+2020-03-13 05:37:18.8984  INFO    - DataTransfer - Completed Processing Result Details/Relay 
+2020-03-13 05:37:19.0483  INFO    - DataTransfer - Started Processing Result Details/Combined 
+2020-03-13 05:37:19.3431  INFO    - DataTransfer - Completed Processing Result Details/Combined 
+2020-03-13 05:37:19.3911  INFO    - DataTransfer - Started Processing Result Details/Masters 
+2020-03-13 05:37:21.3369  INFO    - DataTransfer - Completed Processing Result Details/Masters 
+2020-03-13 05:37:21.3730  INFO    - Watcher - Duplicate File Deleted in Backup path 
+2020-03-13 05:37:21.3730  INFO    - Watcher - File Moved  J:\Courses\Capstone\FileUpload\Source\InputFiles\GenericData-Winter Mini Meet 3-02Feb2020-001.mdb->J:\Courses\Capstone\FileUpload\Source\Backup\GenericData-Winter Mini Meet 3-02Feb2020-001.mdb 
+2020-03-13 05:37:21.3730  INFO    - Watcher - Application Exited Successfully 
+2020-03-13 05:37:21.3730  INFO    - Watcher - File deleted: GenericData-Winter Mini Meet 3-02Feb2020-001.ldb 
+2020-03-13 05:37:21.3730  INFO    - Watcher - File deleted: GenericData-Winter Mini Meet 3-02Feb2020-001.ldb 
+2020-03-13 05:37:21.3730  INFO    - Watcher - File deleted: GenericData-Winter Mini Meet 3-02Feb2020-001.ldb 
+2020-03-13 05:37:21.3730  INFO    - Watcher - File deleted: GenericData-Winter Mini Meet 3-02Feb2020-001.ldb 
+2020-03-13 05:37:21.3730  INFO    - Watcher - File deleted: GenericData-Winter Mini Meet 3-02Feb2020-001.ldb 
+2020-03-13 05:37:21.3730  INFO    - Watcher - File deleted: GenericData-Winter Mini Meet 3-02Feb2020-001.mdb 
+2020-03-13 05:37:25.7926  INFO    - Watcher - File created: J:\Courses\Capstone\FileUpload\Source\InputFiles\GenericData-YUTC Twilight #3-09Jul2019-001.mdb 
+2020-03-13 05:37:25.7926  INFO    - Watcher - Application Started 
+2020-03-13 05:37:25.7926  INFO    - DataReader - Application Started | ProcessFile 
+2020-03-13 05:37:25.7926  INFO    - DataReader - Driver={Microsoft Access Driver (*.mdb)};DBQ=J:\Courses\Capstone\FileUpload\Source\InputFiles\GenericData-YUTC Twilight #3-09Jul2019-001.mdb 
+2020-03-13 05:37:25.7926  INFO    - DataReader - Application has started Reading Access DB 
+2020-03-13 05:37:25.8266  INFO    - DataTransfer - Started Processing Club Details 
+2020-03-13 05:37:25.8276 ERROR    - ClubRepo - Duplicate:UTTC 
+2020-03-13 05:37:25.8276 ERROR    - ClubRepo - Duplicate:UNON 
+2020-03-13 05:37:25.8276 ERROR    - ClubRepo - Duplicate:SISU 
+2020-03-13 05:37:25.8276 ERROR    - ClubRepo - Duplicate:TETC 
+2020-03-13 05:37:25.8276 ERROR    - ClubRepo - Duplicate:TOWA 
+2020-03-13 05:37:25.8276 ERROR    - ClubRepo - Duplicate:SAAC 
+2020-03-13 05:37:25.8276 ERROR    - ClubRepo - Duplicate:OSTL 
+2020-03-13 05:37:25.8276 ERROR    - ClubRepo - Duplicate:OEPV 
+2020-03-13 05:37:25.8276 ERROR    - ClubRepo - Duplicate:PEVA 
+2020-03-13 05:37:25.8276 ERROR    - ClubRepo - Duplicate:BTPV 
+2020-03-13 05:37:25.8276 ERROR    - ClubRepo - Duplicate:BRMP 
+2020-03-13 05:37:25.8276 ERROR    - ClubRepo - Duplicate:LWTF 
+2020-03-13 05:37:25.8276 ERROR    - ClubRepo - Duplicate:PHNX 
+2020-03-13 05:37:25.8276 ERROR    - ClubRepo - Duplicate:CRUI 
+2020-03-13 05:37:25.8276 ERROR    - ClubRepo - Duplicate:OTOC 
+2020-03-13 05:37:25.8276 ERROR    - ClubRepo - Duplicate:ANIA 
+2020-03-13 05:37:25.8276 ERROR    - ClubRepo - Duplicate:INAC 
+2020-03-13 05:37:25.8925 ERROR    - ClubRepo - Duplicate:MXPF 
+2020-03-13 05:37:25.8925 ERROR    - ClubRepo - Duplicate:SAUG 
+2020-03-13 05:37:25.9145 ERROR    - ClubRepo - Duplicate:LAUR 
+2020-03-13 05:37:25.9355 ERROR    - ClubRepo - Duplicate:BRNT 
+2020-03-13 05:37:25.9595 ERROR    - ClubRepo - Duplicate:FAJA 
+2020-03-13 05:37:25.9965 ERROR    - ClubRepo - Duplicate:GEJU 
+2020-03-13 05:37:26.0075 ERROR    - ClubRepo - Duplicate:MISS 
+2020-03-13 05:37:26.0304 ERROR    - ClubRepo - Duplicate:OOAK 
+2020-03-13 05:37:26.0334 ERROR    - ClubRepo - Duplicate:DLEG 
+2020-03-13 05:37:26.0334 ERROR    - ClubRepo - Duplicate:OIBF 
+2020-03-13 05:37:26.0654 ERROR    - ClubRepo - Duplicate:UWTC 
+2020-03-13 05:37:26.0654 ERROR    - ClubRepo - Duplicate:ETOB 
+2020-03-13 05:37:26.0654 ERROR    - ClubRepo - Duplicate:YUTC 
+2020-03-13 05:37:26.0654 ERROR    - ClubRepo - Duplicate:MOAC 
+2020-03-13 05:37:26.0654 ERROR    - ClubRepo - Duplicate:CTRO 
+2020-03-13 05:37:26.0784 ERROR    - ClubRepo - Duplicate:BLUE 
+2020-03-13 05:37:26.0784 ERROR    - ClubRepo - Duplicate:MCTC 
+2020-03-13 05:37:26.0784 ERROR    - ClubRepo - Duplicate:WOAC 
+2020-03-13 05:37:26.0784 ERROR    - ClubRepo - Duplicate:PATF 
+2020-03-13 05:37:26.0784 ERROR    - ClubRepo - Duplicate:OSSD 
+2020-03-13 05:37:26.0784 ERROR    - ClubRepo - Duplicate:DURA 
+2020-03-13 05:37:26.0784 ERROR    - ClubRepo - Duplicate:YREG 
+2020-03-13 05:37:26.0784 ERROR    - ClubRepo - Duplicate:NOCO 
+2020-03-13 05:37:26.0784 ERROR    - ClubRepo - Duplicate:OTTL 
+2020-03-13 05:37:26.0784 ERROR    - ClubRepo - Duplicate:NMKT 
+2020-03-13 05:37:26.0784 ERROR    - ClubRepo - Duplicate:HEAT 
+2020-03-13 05:37:26.0934 ERROR    - ClubRepo - Duplicate:CCCX  
+2020-03-13 05:37:26.0934 ERROR    - ClubRepo - Duplicate:FLYA 
+2020-03-13 05:37:26.0934  INFO    - DataTransfer - Processing Club Details Completed 
+2020-03-13 05:37:26.1624  INFO    - DataTransfer - Started Processing Result Details/Standard 
+2020-03-13 05:37:28.6531  INFO    - DataTransfer - Completed Processing Result Details/Standard 
+2020-03-13 05:37:28.7031  INFO    - DataTransfer - Started Processing Result Details/Relay 
+2020-03-13 05:37:28.7031  INFO    - DataTransfer - Completed Processing Result Details/Relay 
+2020-03-13 05:37:28.7508  INFO    - DataTransfer - Started Processing Result Details/Combined 
+2020-03-13 05:37:28.7508  INFO    - DataTransfer - Completed Processing Result Details/Combined 
+2020-03-13 05:37:28.7963  INFO    - DataTransfer - Started Processing Result Details/Masters 
+2020-03-13 05:37:28.7963  INFO    - DataTransfer - Completed Processing Result Details/Masters 
+2020-03-13 05:37:28.8334  INFO    - Watcher - Duplicate File Deleted in Backup path 
+2020-03-13 05:37:28.8334  INFO    - Watcher - File Moved  J:\Courses\Capstone\FileUpload\Source\InputFiles\GenericData-YUTC Twilight #3-09Jul2019-001.mdb->J:\Courses\Capstone\FileUpload\Source\Backup\GenericData-YUTC Twilight #3-09Jul2019-001.mdb 
+2020-03-13 05:37:28.8334  INFO    - Watcher - Application Exited Successfully 
+2020-03-13 05:37:28.8334  INFO    - Watcher - File deleted: GenericData-YUTC Twilight #3-09Jul2019-001.ldb 
+2020-03-13 05:37:28.8334  INFO    - Watcher - File deleted: GenericData-YUTC Twilight #3-09Jul2019-001.ldb 
+2020-03-13 05:37:28.8334  INFO    - Watcher - File deleted: GenericData-YUTC Twilight #3-09Jul2019-001.ldb 
+2020-03-13 05:37:28.8334  INFO    - Watcher - File deleted: GenericData-YUTC Twilight #3-09Jul2019-001.ldb 
+2020-03-13 05:37:28.8334  INFO    - Watcher - File deleted: GenericData-YUTC Twilight #3-09Jul2019-001.ldb 
+2020-03-13 05:37:28.8334  INFO    - Watcher - File deleted: GenericData-YUTC Twilight #3-09Jul2019-001.mdb 
+2020-03-13 05:37:39.6978  INFO    - Service1 - Directory watcher Stopped 

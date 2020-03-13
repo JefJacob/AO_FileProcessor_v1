@@ -16,15 +16,15 @@ namespace AOFileProcessor.Repository
             SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["AODB"].ConnectionString);
             string insertStatement =
                 "INSERT into AthleteEvents " +
-                "(Name,	Gender,	Division,	EventRound) " +
-                "VALUES (@Name,	@Gender,	@Division,	@EventRound)";
+                "(EventName,	EventGender,	EventDivision,	EventRound) " +
+                "VALUES (@EventName,	@EventGender,	@EventDivision,	@EventRound)";
             SqlCommand insertCommand =
                 new SqlCommand(insertStatement, connection);
 
             //insertCommand.Parameters.AddWithValue("@EventId", athleteEvent.EventId);
-            insertCommand.Parameters.AddWithValue("@Name", athleteEvent.Name);
-            insertCommand.Parameters.AddWithValue("@Gender", athleteEvent.Gender);
-            insertCommand.Parameters.AddWithValue("@Division", athleteEvent.Division);
+            insertCommand.Parameters.AddWithValue("@EventName", athleteEvent.EventName);
+            insertCommand.Parameters.AddWithValue("@EventGender", athleteEvent.EventGender);
+            insertCommand.Parameters.AddWithValue("@EventDivision", athleteEvent.EventDivision);
             insertCommand.Parameters.AddWithValue("@EventRound", athleteEvent.EventRound);
 
 
@@ -53,7 +53,7 @@ namespace AOFileProcessor.Repository
             string selectStatement
                 = "SELECT * "
                 + "FROM AThleteEvents "
-                + "WHERE Gender+' '+Name+' '+Division+' '+EventRound =@EventName+' '+@EventRound";
+                + "WHERE EventGender+' '+EventName+' '+EventDivision+' '+EventRound =@EventName+' '+@EventRound";
             SqlCommand selectCommand =
                 new SqlCommand(selectStatement, connection);
             selectCommand.Parameters.AddWithValue(

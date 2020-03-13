@@ -16,24 +16,24 @@ namespace AOFileProcessor.Repository
             SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["AODB"].ConnectionString);
             string insertStatement =
                 "INSERT into Athletes " +
-                "(ACNum,	Fname,	Lname,	DOB,	Gender,	ClubCode,	Address,	City,	Phone,	Email,	HeadShot,		ClubAffiliationSince) " +
-                "VALUES (	@ACNum,	@Fname,	@Lname,	@DOB,	@Gender,	@ClubCode,	@Address,	@City,	@Phone,	@Email,	@HeadShot,		@ClubAffiliationSince)";
+                "(ACNum,	FirstName,	LastName,	DOB,	AthleteGender,	ClubCode,	Address,	City,	Phone,	AthleteEmail,	HeadShot,		ClubAffiliationSince) " +
+                "VALUES (	@ACNum,	@FirstName,	@LastName,	@DOB,	@AthleteGender,	@ClubCode,	@Address,	@City,	@Phone,	@AthleteEmail,	@HeadShot,		@ClubAffiliationSince)";
             SqlCommand insertCommand =
                 new SqlCommand(insertStatement, connection);
 
             //insertCommand.Parameters.AddWithValue("@AthleteId", athlete.AthleteId);
             insertCommand.Parameters.AddWithValue("@ACNum", athlete.ACNum);
-            insertCommand.Parameters.AddWithValue("@Fname", athlete.Fname);
-            insertCommand.Parameters.AddWithValue("@Lname", athlete.Lname);
+            insertCommand.Parameters.AddWithValue("@FirstName", athlete.FirstName);
+            insertCommand.Parameters.AddWithValue("@LastName", athlete.LastName);
             insertCommand.Parameters.AddWithValue("@DOB", athlete.DOB);
-            insertCommand.Parameters.AddWithValue("@Gender", athlete.Gender);
+            insertCommand.Parameters.AddWithValue("@AthleteGender", athlete.AthleteGender);
             insertCommand.Parameters.AddWithValue("@ClubCode", athlete.ClubCode);
             insertCommand.Parameters.AddWithValue("@Address", athlete.Address);
             insertCommand.Parameters.AddWithValue("@City", athlete.City);
             insertCommand.Parameters.AddWithValue("@Phone", athlete.Phone);
-            insertCommand.Parameters.AddWithValue("@Email", athlete.Email);
+            insertCommand.Parameters.AddWithValue("@AthleteEmail", athlete.AthleteEmail);
             insertCommand.Parameters.AddWithValue("@HeadShot", athlete.HeadShot);
-            //insertCommand.Parameters.AddWithValue("@AthleteSpecialNoteid", athlete.AthleteSpecialNoteid);
+            //insertCommand.Parameters.AddWithValue("@AthleteSpecialNoteId", athlete.AthleteSpecialNoteId);
             insertCommand.Parameters.AddWithValue("@ClubAffiliationSince", athlete.ClubAffiliationSince);
 
 
@@ -48,7 +48,7 @@ namespace AOFileProcessor.Repository
             catch (SqlException ex)
             {
                 if (ex.Message.Contains("Violation of PRIMARY KEY constraint"))
-                    Console.WriteLine("Duplicate Athlete: "+athlete.Fname);
+                    Console.WriteLine("Duplicate Athlete: "+athlete.FirstName);
                 return 0;
             }
             finally
@@ -79,17 +79,17 @@ namespace AOFileProcessor.Repository
                     AthleteEntity athlete = new AthleteEntity();
                     athlete.AthleteId = Convert.ToInt32(proReader["AthleteId"]);
                     athlete.ACNum = proReader["ACNum"].ToString();
-                    athlete.Fname = proReader["Fname"].ToString();
-                    athlete.Lname = proReader["Lname"].ToString();
+                    athlete.FirstName = proReader["FirstName"].ToString();
+                    athlete.LastName = proReader["LastName"].ToString();
                     athlete.DOB = Convert.ToDateTime(proReader["DOB"]);
-                    athlete.Gender = proReader["Gender"].ToString();
+                    athlete.AthleteGender = proReader["AthleteGender"].ToString();
                     athlete.ClubCode = proReader["ClubCode"].ToString();
                     athlete.Address = proReader["Address"].ToString();
                     athlete.City = proReader["City"].ToString();
                     athlete.Phone = proReader["Phone"].ToString();
-                    athlete.Email = proReader["Email"].ToString();
+                    athlete.AthleteEmail = proReader["AthleteEmail"].ToString();
                     athlete.HeadShot = proReader["HeadShot"].ToString();
-                    athlete.AthleteSpecialNoteid = Convert.ToInt32(proReader["AthleteSpecialNoteid"]);
+                    athlete.AthleteSpecialNoteId = Convert.ToInt32(proReader["AthleteSpecialNoteId"]);
                     athlete.ClubAffiliationSince = Convert.ToDateTime(proReader["ClubAffiliationSince"]);
                     
                     return athlete;
@@ -157,13 +157,13 @@ namespace AOFileProcessor.Repository
             string selectStatement
                 = "SELECT * "
                 + "FROM AThletes "
-                + "WHERE Fname+Lname+CONVERT(VARCHAR(10),DOB,105) = @Fname+@Lname+@DOB";
+                + "WHERE FirstName+LastName+CONVERT(VARCHAR(10),DOB,105) = @FirstName+@LastName+@DOB";
             SqlCommand selectCommand =
                 new SqlCommand(selectStatement, connection);
             selectCommand.Parameters.AddWithValue(
-                "@Fname", fName);
+                "@FirstName", fName);
             selectCommand.Parameters.AddWithValue(
-               "@Lname", lName);
+               "@LastName", lName);
             selectCommand.Parameters.AddWithValue(
                "@DOB", dob.ToString("dd-MM-yyyy"));
             try
@@ -216,7 +216,7 @@ namespace AOFileProcessor.Repository
                 if (proReader.Read())
                 {
 
-                    string athleteName =proReader["Fname"].ToString()+" "+ proReader["Lname"].ToString()+" "+ proReader["DOB"].ToString();
+                    string athleteName =proReader["FirstName"].ToString()+" "+ proReader["LastName"].ToString()+" "+ proReader["DOB"].ToString();
 
                     return athleteName;
                 }

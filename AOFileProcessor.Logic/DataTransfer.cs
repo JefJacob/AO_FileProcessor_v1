@@ -24,8 +24,8 @@ namespace AOFileProcessor.Logic
             {
                 ClubEntity club = new ClubEntity();
                 club.ClubCode = reader["Team_abbr"].ToString();
-                club.Name = reader["Team_name"].ToString();
-                club.ShortName = reader["Team_short"].ToString();
+                club.ClubName = reader["Team_name"].ToString();
+                
                 try
                 {
                     ClubRepo.AddClub(club);
@@ -78,13 +78,13 @@ namespace AOFileProcessor.Logic
                         string[] words = Full_Eventname.Split(' ');
                         List<string> wList = new List<string>(words);
                         AthleteEventEntity athleteEvent = new AthleteEventEntity();
-                        athleteEvent.Gender = words[0];
+                        athleteEvent.EventGender = words[0];
                         athleteEvent.EventRound = Rnd_ltr;
-                        athleteEvent.Division = words[words.Length-1];
+                        athleteEvent.EventDivision = words[words.Length-1];
                         //athleteEvent.Name = Full_Eventname.Replace(words[0], "").Replace(words[words.Length-1], "").Trim();
                         wList.RemoveAt(0);
                         wList.RemoveAt(wList.Count - 1);
-                        athleteEvent.Name = string.Join(" ", wList);
+                        athleteEvent.EventName = string.Join(" ", wList);
                         AthleteEventRepo.AddAthleteEvent(athleteEvent);
                     }
 
@@ -97,15 +97,15 @@ namespace AOFileProcessor.Logic
                             athlete.ClubAffiliationSince = DateTime.Now;
                             athlete.ClubCode = Team_Abbr;
                             athlete.DOB = Birth_date;
-                            athlete.Fname = First_name;
-                            athlete.Lname = Last_name;
-                            athlete.Gender = Ath_Sex;
+                            athlete.FirstName = First_name;
+                            athlete.LastName = Last_name;
+                            athlete.AthleteGender = Ath_Sex;
                             athlete.Address = "";
                             athlete.City = "";
-                            athlete.Email = "";
+                            athlete.AthleteEmail = "";
                             athlete.Phone = "";
                             athlete.HeadShot = "";
-                            athlete.AthleteSpecialNoteid = 0;
+                            athlete.AthleteSpecialNoteId = 0;
                             AthleteRepo.AddAthlete(athlete);
                             result.AthleteId = AthleteRepo.GetAthleteIdByName(First_name, Last_name, Birth_date);
                         }
@@ -175,13 +175,13 @@ namespace AOFileProcessor.Logic
                         string[] words = Full_Eventname.Split(' ');
                         List<string> wList = new List<string>(words);
                         AthleteEventEntity athleteEvent = new AthleteEventEntity();
-                        athleteEvent.Gender = words[0];
+                        athleteEvent.EventGender = words[0];
                         athleteEvent.EventRound = Relay_ltr;
 
-                        athleteEvent.Division = words[words.Length - 1];
+                        athleteEvent.EventDivision = words[words.Length - 1];
                         wList.RemoveAt(0);
                         wList.RemoveAt(wList.Count - 1);
-                        athleteEvent.Name = string.Join(" ", wList);
+                        athleteEvent.EventName = string.Join(" ", wList);
                         //athleteEvent.Name = Full_Eventname.Replace(words[0], "").Replace(words[words.Length - 1], "").Trim();
                         AthleteEventRepo.AddAthleteEvent(athleteEvent);
 
@@ -196,15 +196,15 @@ namespace AOFileProcessor.Logic
                             athlete.ClubAffiliationSince = DateTime.Now;
                             athlete.ClubCode = Team_Abbr;
                             athlete.DOB = Birth_date;
-                            athlete.Fname = First_name;
-                            athlete.Lname = Last_name;
-                            athlete.Gender = Ath_Sex;
+                            athlete.FirstName = First_name;
+                            athlete.LastName = Last_name;
+                            athlete.AthleteGender = Ath_Sex;
                             athlete.Address = "";
                             athlete.City = "";
-                            athlete.Email = "";
+                            athlete.AthleteEmail = "";
                             athlete.Phone = "";
                             athlete.HeadShot = "";
-                            athlete.AthleteSpecialNoteid = 0;
+                            athlete.AthleteSpecialNoteId = 0;
                             AthleteRepo.AddAthlete(athlete);
                             result.AthleteId = AthleteRepo.GetAthleteIdByName(First_name, Last_name, Birth_date);
                         }
@@ -296,12 +296,12 @@ namespace AOFileProcessor.Logic
                         string[] words = Full_Eventname.Split(' ');
                         List<string> wList = new List<string>(words);
                         AthleteEventEntity athleteEvent = new AthleteEventEntity();
-                        athleteEvent.Gender = words[0];
+                        athleteEvent.EventGender = words[0];
                         athleteEvent.EventRound = Rnd_ltr;
-                        athleteEvent.Division = words[words.Length - 1];
+                        athleteEvent.EventDivision = words[words.Length - 1];
                         wList.RemoveAt(0);
                         wList.RemoveAt(wList.Count - 1);
-                        athleteEvent.Name = string.Join(" ", wList);
+                        athleteEvent.EventName = string.Join(" ", wList);
                         //athleteEvent.Name = Full_Eventname.Replace(words[0], "").Replace(words[words.Length - 1], "").Trim();
                         AthleteEventRepo.AddAthleteEvent(athleteEvent);
 
@@ -316,15 +316,15 @@ namespace AOFileProcessor.Logic
                             athlete.ClubAffiliationSince = DateTime.Now;
                             athlete.ClubCode = Team_Abbr;
                             athlete.DOB = Birth_date;
-                            athlete.Fname = First_name;
-                            athlete.Lname = Last_name;
-                            athlete.Gender = Ath_Sex;
+                            athlete.FirstName = First_name;
+                            athlete.LastName = Last_name;
+                            athlete.AthleteGender = Ath_Sex;
                             athlete.Address = "";
                             athlete.City = "";
-                            athlete.Email = "";
+                            athlete.AthleteEmail = "";
                             athlete.Phone = "";
                             athlete.HeadShot = "";
-                            athlete.AthleteSpecialNoteid = 0;
+                            athlete.AthleteSpecialNoteId = 0;
                             AthleteRepo.AddAthlete(athlete);
                             result.AthleteId = AthleteRepo.GetAthleteIdByName(First_name, Last_name, Birth_date);
                         }
@@ -418,10 +418,10 @@ namespace AOFileProcessor.Logic
                     {
                         
                         AthleteEventEntity athleteEvent = new AthleteEventEntity();
-                        athleteEvent.Gender = Gender;
+                        athleteEvent.EventGender = Gender;
                         athleteEvent.EventRound = Rnd_ltr;
-                        athleteEvent.Division = Division;
-                        athleteEvent.Name = Name;
+                        athleteEvent.EventDivision = Division;
+                        athleteEvent.EventName = Name;
                        
                         AthleteEventRepo.AddAthleteEvent(athleteEvent);
                     }
@@ -435,15 +435,15 @@ namespace AOFileProcessor.Logic
                             athlete.ClubAffiliationSince = DateTime.Now;
                             athlete.ClubCode = Team_Abbr;
                             athlete.DOB = Birth_date;
-                            athlete.Fname = First_name;
-                            athlete.Lname = Last_name;
-                            athlete.Gender = Ath_Sex;
+                            athlete.FirstName = First_name;
+                            athlete.LastName = Last_name;
+                            athlete.AthleteGender = Ath_Sex;
                             athlete.Address = "";
                             athlete.City = "";
-                            athlete.Email = "";
+                            athlete.AthleteEmail = "";
                             athlete.Phone = "";
                             athlete.HeadShot = "";
-                            athlete.AthleteSpecialNoteid = 0;
+                            athlete.AthleteSpecialNoteId = 0;
                             AthleteRepo.AddAthlete(athlete);
                             result.AthleteId = AthleteRepo.GetAthleteIdByName(First_name, Last_name, Birth_date);
                         }
